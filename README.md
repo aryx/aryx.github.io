@@ -6,7 +6,8 @@ I like to code and do research on stuff to make it easier to code stuff.
 
 Creator of [Semgrep](https://github.com/semgrep/semgrep). These days mostly focused on
 computer science education. Before that, at Facebook working on [pfff](https://github.com/facebookarchive/pfff), which led to
-codemap, codegraph, and sgrep (Semgrep's ancestor). And before that, a PhD and postdoc in program
+[codemap](https://github.com/aryx/codemap), [codegraph](https://github.com/aryx/codegraph), and
+sgrep (Semgrep's ancestor). And before that, a PhD and postdoc in program
 analysis — see [Academia](academia.md).
 
 ## Education projects
