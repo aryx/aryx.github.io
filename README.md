@@ -45,6 +45,8 @@ More: [Academia](academia.md) · [Papers](papers.md) · [Talks](talks.md) ·
   [final report, 2011](https://tinlizzie.org/VPRIPapers/tr2011004_steps11.pdf)
 - [Oberon](https://en.wikipedia.org/wiki/Oberon_(operating_system)) (Niklaus Wirth) — an OS and
   language built by one person, kept small on purpose.
+  [official site](https://www.projectoberon.net/) ·
+  [book pdf](https://worrydream.com/refs/Wirth_2005_-_Project_Oberon.pdf)
 - [TempleOS](https://en.wikipedia.org/wiki/TempleOS) (Terry A. Davis) — another one-person OS,
   down to its own compiler and language; its author's life was troubled and the project
   controversial, but the sheer scope of it built solo is still striking.
