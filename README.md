@@ -5,10 +5,10 @@
 I like to code and do research on stuff to make it easier to code stuff.
 
 Creator of [Semgrep](https://github.com/semgrep/semgrep). These days mostly focused on
-programming-language and systems education. Before that, a PhD and postdoc in program
+computer science education. Before that, a PhD and postdoc in program
 analysis — see [Academia](academia.md).
 
-## Education
+## Education projects
 
 - **[principia-softwarica](https://github.com/aryx/principia-softwarica)** — a fork of Plan 9,
   rewritten as a teaching operating system, in C.
