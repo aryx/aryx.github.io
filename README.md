@@ -24,8 +24,9 @@ analysis — see [Academia](academia.md).
   - spinoffs: **[ocaml-light](https://github.com/aryx/ocaml-light)**, OCaml 1.07 stripped of
     objects and functors for teaching; **[efuns](https://github.com/aryx/efuns)** /
     **[mmm](https://github.com/aryx/mmm)**, an Emacs clone and a web browser, both in OCaml;
-    **[tigerc--](https://github.com/aryx/tigerc--)** / **[quickc--](https://github.com/aryx/quickc--)**,
-    compiler-construction exercises; **[ocaml-caps](https://github.com/aryx/ocaml-caps)** /
+    **[tigerc\-\-](https://github.com/aryx/tigerc--)** / **[quickc\-\-](https://github.com/aryx/quickc--)**,
+    forks built around the Tiger compiler and the C\-\- portable assembly language;
+    **[ocaml-caps](https://github.com/aryx/ocaml-caps)** /
     **[ocaml-commons](https://github.com/aryx/ocaml-commons)**, capability types and stdlib
     extensions shared by the above
 - **[xv6-multiarch](https://github.com/aryx/xv6-multiarch)** — unifying the many
@@ -36,14 +37,16 @@ analysis — see [Academia](academia.md).
 - **[Semgrep](https://github.com/semgrep/semgrep)** — static analysis tool I created: find bug
   patterns that look like source code. Built on
   **[semgrep-pfff-libs](https://github.com/aryx/semgrep-pfff-libs)** /
-  **[semgrep-pfff-langs](https://github.com/aryx/semgrep-pfff-langs)**, its parsing libraries.
+  **[semgrep-pfff-langs](https://github.com/aryx/semgrep-pfff-langs)**, its parsing libraries. My
+  latest fork, **[osemgrep](https://github.com/aryx/osemgrep)**, focuses on OCaml/C improvements
+  and LSP support.
 - **[codemap](https://github.com/aryx/codemap)** / **[codegraph](https://github.com/aryx/codegraph)**
   — source code visualizers (treemap, dependency graph).
 - **[codequery](https://github.com/aryx/codequery)** / **[codecheck](https://github.com/aryx/codecheck)**
   — querying and checking a codebase.
 - **[efuns](https://github.com/aryx/efuns)** — an Emacs clone with a GTK/Cairo GUI.
 
-Eventually I'd like to tie all of these together into one Makerpad-like tool.
+<!-- Eventually I'd like to tie all of these together into one Makerpad-like tool. -->
 
 ## Noveltish
 
@@ -76,8 +79,8 @@ libraries — see [Academia](academia.md) for that lineage.
 - Alan Kay's Dynabook / "Dynaland" vision of personal computing for learning.
 - [Singularity](<https://en.wikipedia.org/wiki/Singularity_(operating_system)>) (Microsoft
   Research) — a research OS rethought from first principles.
-- [Makerpad](https://makerpad.com) — stitching small tools together into something usable
-  end-to-end.
+<!-- - [Makerpad](https://makerpad.com) — stitching small tools together into something usable
+  end-to-end. -->
 
 ## Elsewhere
 
