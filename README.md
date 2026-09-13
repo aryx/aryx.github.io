@@ -86,4 +86,4 @@ libraries — see [Academia](academia.md) for that lineage.
 
 - GitHub: [github.com/aryx](https://github.com/aryx)
 - Twitter/X: [@yoann_padioleau](https://twitter.com/yoann_padioleau)
-- Email: yoann.padioleau@gmail.com
+- Email: yoann.padioleau [at] gmail [dot] com
