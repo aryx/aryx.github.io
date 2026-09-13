@@ -48,7 +48,7 @@ analysis — see [Academia](academia.md).
 
 <!-- Eventually I'd like to tie all of these together into one Makerpad-like tool. -->
 
-## Experimental
+## Original work
 
 - Semantic code search and transformation: from the original sgrep/Coccinelle research (see
   [Academia](academia.md)), through pfff at Facebook, to today's
