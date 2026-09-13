@@ -4,30 +4,37 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
-`aryx.github.io` — a GitHub Pages site for user "aryx" (Yoann Padioleau), built with Jekyll
-using the built-in `jekyll-theme-cayman` remote theme (set in `_config.yml`). There is no
-custom layout, build script, or asset pipeline; `README.md` is rendered as the site's homepage.
+`aryx.github.io` — a GitHub Pages site for user "aryx" (Yoann Padioleau), built with Jekyll.
+`README.md` is rendered as the site's homepage. Styling and layout are fully custom (no Jekyll
+theme) — see below for why.
 
 ## Structure
 
-- `_config.yml` — sets `remote_theme: pages-themes/cayman@v0.2.0` (via the `jekyll-remote-theme`
-  plugin) rather than the gem-based `theme: jekyll-theme-cayman`. The gem-based form silently
-  failed to generate `/assets/css/style.css` on GitHub Pages' build (confirmed via genuine 404,
-  not a caching issue), leaving the whole site unstyled since it was first published in 2020.
-  `remote_theme` is GitHub's officially recommended, more reliable way to pull in a Pages theme.
+- `_config.yml` — intentionally empty. This site does NOT use a Jekyll `theme:`/`remote_theme:`.
+  On GitHub Pages' build, both the gem-based `theme: jekyll-theme-cayman` and the equivalent
+  `remote_theme: pages-themes/cayman@v0.2.0` silently broke asset serving for this specific repo:
+  every path under a top-level `assets/` directory 404'd, including a plain static test file
+  placed there (confirmed with real HTTP 404s from origin, not a caching artifact) — most likely
+  the theme's Sass compile step throwing and clobbering the whole `assets/` output tree, with
+  the failure not surfaced as a build error. Root cause not found upstream; worked around instead
+  of relying on Jekyll to fetch/build the theme at all.
+- `css/style.css` — the Cayman theme's compiled CSS, vendored as a plain static file (path
+  deliberately NOT under `assets/`, to avoid the same failure mode). Includes the bundled
+  normalize.css (MIT licensed, per its header comment).
+- `_layouts/default.html` — a hand-written layout based on Cayman's own `default.html`, minus
+  the `<header class="page-header">` banner (repo name + tagline) that the theme renders above
+  page content by default, and pointing the stylesheet `<link>` at `css/style.css` above.
 - `README.md` — the homepage content, written in Markdown (GitHub renders code fences, e.g. the
   `ocaml` block, with syntax highlighting on GitHub itself and via Jekyll's Markdown renderer on
   the published site).
-- `_layouts/default.html` — overrides Cayman's own `default.html` layout to drop the
-  `<header class="page-header">` banner (repo name + tagline) that the theme renders above the
-  page content by default. Jekyll lets a site's own `_layouts/`, `_includes/`, and `assets/`
-  override same-named files from a gem-based `theme:`, which is how this works without forking
-  the theme. Everything else (fonts, footer, body CSS) still comes from the theme.
 
 ## Working in this repo
 
-- Changes are just edits to `README.md` (page content) or `_config.yml` (theme/site settings).
+- Changes are just edits to `README.md` (page content), `_layouts/default.html` (page chrome), or
+  `css/style.css` (styling).
 - GitHub Pages builds and deploys automatically on push to `main` — there is no local build step
   or CI to run.
 - To preview locally, use standard Jekyll tooling (`bundle exec jekyll serve`), but no Gemfile is
   currently checked in, so this isn't set up out of the box.
+- If re-attempting a Jekyll theme (gem-based or `remote_theme`) in the future, first verify that
+  `/assets/...` paths actually resolve on the live site — that's exactly how this broke before.
