@@ -5,7 +5,8 @@
 I like to code and do research on stuff to make it easier to code stuff.
 
 Creator of [Semgrep](https://github.com/semgrep/semgrep). These days mostly focused on
-computer science education. Before that, a PhD and postdoc in program
+computer science education. Before that, at Facebook working on [pfff](https://github.com/facebookarchive/pfff), which led to
+codemap, codegraph, and sgrep (Semgrep's ancestor). And before that, a PhD and postdoc in program
 analysis — see [Academia](academia.md).
 
 ## Education projects
@@ -46,7 +47,8 @@ Eventually I'd like to tie all of these together into one Makerpad-like tool.
 ## Noveltish
 
 - Semantic code search and transformation: from the original sgrep/Coccinelle research (see
-  [Academia](academia.md)) to today's **[Semgrep](https://github.com/semgrep/semgrep)**.
+  [Academia](academia.md)), through pfff at Facebook, to today's
+  **[Semgrep](https://github.com/semgrep/semgrep)**.
 - **[codemap](https://github.com/aryx/codemap)** / **[codegraph](https://github.com/aryx/codegraph)**
   — visualizing code instead of just reading it.
 - **[syncweb](https://github.com/aryx/syncweb)** — literate programming meets Unison; keeps the
