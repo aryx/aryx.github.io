@@ -98,6 +98,8 @@ Full list: [software.md](software.md)
   [writeup](contests/icfp2002.html)),
   [race](contests/icfp-2003-race.tgz) (2003),
   [cop-robber](contests/icfp-2005-cop-robber.tgz) (2005).
+- linux-livecd — an early Linux live CD I built, predating Knoppix and the wave of live-CD
+  distros that followed; never published beyond a circle of friends.
 
 ## Deprecated
 
