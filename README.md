@@ -59,6 +59,8 @@ More: [Academia](academia.md) · [Papers](papers.md) · [Talks](talks.md) ·
 
 ## Software development
 
+Full list: [software.md](software.md)
+
 - **[Semgrep](https://github.com/semgrep/semgrep)** — static analysis tool I created: find bug
   patterns that look like source code. Built on
   **[semgrep-pfff-libs](https://github.com/aryx/semgrep-pfff-libs)** /
