@@ -9,6 +9,7 @@ is everything, one line each). Raw repository list:
 | Project | Description |
 |---|---|
 | [xix](https://github.com/aryx/xix) | A from-scratch rewrite, in OCaml, of the Plan 9 userland. |
+| [syncweb](https://github.com/aryx/syncweb) | Literate programming meets Unison. |
 | [Semgrep](https://github.com/semgrep/semgrep) | Static analysis tool I created: find bugs using rules that look like the code they match. |
 | [osemgrep](https://github.com/aryx/osemgrep) | My personal fork of Semgrep, since leaving the Semgrep company; focused on OCaml/C improvements and LSP support. |
 | [semgrep-pfff-libs](https://github.com/aryx/semgrep-pfff-libs) / [semgrep-pfff-langs](https://github.com/aryx/semgrep-pfff-langs) | Parsing libraries behind Semgrep. |
@@ -17,7 +18,6 @@ is everything, one line each). Raw repository list:
 | [codegraph](https://github.com/aryx/codegraph) | Source code dependencies visualizer. |
 | [codequery](https://github.com/aryx/codequery) | Querying a codebase using Prolog. |
 | [codecheck](https://github.com/aryx/codecheck) | A multi-language whole-program analysis code checker. |
-| [syncweb](https://github.com/aryx/syncweb) | Literate programming meets Unison. |
 | [ocaml-caps](https://github.com/aryx/ocaml-caps) | Capability types and rules for OCaml. |
 | [ocaml-commons](https://github.com/aryx/ocaml-commons) | OCaml standard library extensions. |
 | [lfs](https://github.com/aryx/lfs) | Logic file system. |
