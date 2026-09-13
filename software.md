@@ -8,6 +8,7 @@ is everything, one line each). Raw repository list:
 
 | Project | Description |
 |---|---|
+| [xix](https://github.com/aryx/xix) | A from-scratch rewrite, in OCaml, of the Plan 9 userland. |
 | [Semgrep](https://github.com/semgrep/semgrep) | Static analysis tool I created: find bugs using rules that look like the code they match. |
 | [osemgrep](https://github.com/aryx/osemgrep) | My personal fork of Semgrep, since leaving the Semgrep company; focused on OCaml/C improvements and LSP support. |
 | [semgrep-pfff-libs](https://github.com/aryx/semgrep-pfff-libs) / [semgrep-pfff-langs](https://github.com/aryx/semgrep-pfff-langs) | Parsing libraries behind Semgrep. |
@@ -19,7 +20,6 @@ is everything, one line each). Raw repository list:
 | [syncweb](https://github.com/aryx/syncweb) | Literate programming meets Unison. |
 | [ocaml-caps](https://github.com/aryx/ocaml-caps) | Capability types and rules for OCaml. |
 | [ocaml-commons](https://github.com/aryx/ocaml-commons) | OCaml standard library extensions. |
-| [xix](https://github.com/aryx/xix) | A from-scratch rewrite, in OCaml, of the Plan 9 userland. |
 | [lfs](https://github.com/aryx/lfs) | Logic file system. |
 | [yacfe](https://github.com/aryx/yacfe) | (deprecated) Yet Another C Front-End: style-preserving C/C++ transformations. |
 | [ocamltarzan](https://github.com/aryx/ocamltarzan) | (deprecated) Compile-time reflection / metaprogramming for OCaml. |
