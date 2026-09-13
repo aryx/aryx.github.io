@@ -11,7 +11,7 @@ is everything, one line each). Raw repository list:
 | [Semgrep](https://github.com/semgrep/semgrep) | Static analysis tool I created: find bugs using rules that look like the code they match. |
 | [osemgrep](https://github.com/aryx/osemgrep) | My personal fork of Semgrep, since leaving the Semgrep company; focused on OCaml/C improvements and LSP support. |
 | [semgrep-pfff-libs](https://github.com/aryx/semgrep-pfff-libs) / [semgrep-pfff-langs](https://github.com/aryx/semgrep-pfff-langs) | Parsing libraries behind Semgrep. |
-| [pfff](https://github.com/facebookarchive/pfff) | OCaml API for static/dynamic analysis and source-to-source transformation, from my Facebook years. |
+| [pfff](https://github.com/facebookarchive/pfff) | A big monorepo of language parsers and tools built on them (semantic search/grep, semantic patch, refactoring, visualization, ...), from my Facebook years. Ancestor of semgrep-pfff-libs/langs, Semgrep, and codemap/codegraph below. |
 | [codemap](https://github.com/aryx/codemap) | Source code visualizer (treemap). |
 | [codegraph](https://github.com/aryx/codegraph) | Source code dependencies visualizer. |
 | [codequery](https://github.com/aryx/codequery) | Querying a codebase using Prolog. |
