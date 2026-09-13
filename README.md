@@ -2,7 +2,7 @@
 
 *(aka pad, padator, aryx)*
 
-I like to code and make it easier to code.
+I like to code and do research on stuff to make it easier to code stuff.
 
 Creator of [Semgrep](https://github.com/semgrep/semgrep). These days mostly focused on
 programming-language and systems education. Before that, a PhD and postdoc in program
