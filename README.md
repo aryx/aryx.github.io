@@ -9,8 +9,8 @@ computer science education (see [principia-softwarica](https://principia-softwar
 [xix](https://aryx.github.io/xix)).
 Before that, at Facebook working on [pfff](https://github.com/facebookarchive/pfff), which led to
 [codemap](https://github.com/aryx/codemap), [codegraph](https://github.com/aryx/codegraph), and
-sgrep (Semgrep's ancestor). And before that, a PhD and postdoc in program analysis — see
-[Academia](academia.md).
+sgrep (Semgrep's ancestor) — see [Industry](industry.md). And before that, a PhD and postdoc in
+program analysis — see [Academia](academia.md).
 
 More: [Papers](papers.md) · [Talks](talks.md) · [Full software list](software.md)
 
