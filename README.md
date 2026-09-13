@@ -24,8 +24,9 @@ More: [Programs](software.md)  · [Papers](papers.md) · [Talks](talks.md)
       (compilers, assemblers, linkers) rooted in the Plan 9/Inferno toolchains, extended to also
       target Linux/macOS/Windows
     - **[chidb](https://github.com/aryx/chidb)** — a teaching database engine
-- **[xix](https://github.com/aryx/xix)** — the Plan 9 userland ported to OCaml, for teaching
-  systems programming with a saner language. ([aryx.github.io/xix](https://aryx.github.io/xix))
+- **[xix](https://github.com/aryx/xix)** — a from-scratch rewrite, in OCaml, of the Plan 9
+  userland, for teaching systems programming with a saner language.
+  ([aryx.github.io/xix](https://aryx.github.io/xix))
   - spinoffs:
     - **[ocaml-light](https://github.com/aryx/ocaml-light)** — OCaml 1.07 stripped of objects and
       functors for teaching
@@ -91,8 +92,8 @@ Full list: [software.md](software.md)
 
 ## Fun & games
 
-- **[ocaml-elm-playground](https://github.com/aryx/ocaml-elm-playground)** — an OCaml port of the
-  Elm playground package, for making pictures, animations, and small games easily.
+- **[ocaml-elm-playground](https://github.com/aryx/ocaml-elm-playground)** — an OCaml library for
+  making pictures, animations, and small games easily, modeled on the Elm playground package.
 - ICFP Programming Contest — competed five years running, always in OCaml:
   [raytracer](contests/icfp-2000-raytracer.tgz) (2000),
   [XML](contests/icfp-2001-xml.tgz) (2001),
