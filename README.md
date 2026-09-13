@@ -5,10 +5,13 @@
 I like to code and do research on stuff to make it easier to code stuff.
 
 Creator of [Semgrep](https://github.com/semgrep/semgrep). These days mostly focused on
-computer science education. Before that, at Facebook working on [pfff](https://github.com/facebookarchive/pfff), which led to
+computer science education (see [principia-softwarica](https://github.com/aryx/principia-softwarica)).
+Before that, at Facebook working on [pfff](https://github.com/facebookarchive/pfff), which led to
 [codemap](https://github.com/aryx/codemap), [codegraph](https://github.com/aryx/codegraph), and
-sgrep (Semgrep's ancestor). And before that, a PhD and postdoc in program
-analysis — see [Academia](academia.md).
+sgrep (Semgrep's ancestor). And before that, a PhD and postdoc in program analysis.
+
+More: [Academia](academia.md) · [Papers](papers.md) · [Talks](talks.md) ·
+[Full software list](software.md)
 
 ## Education projects
 
@@ -72,11 +75,14 @@ libraries — see [Academia](academia.md) for that lineage.
 
 ## Related work & inspirations
 
-- [STEPS](https://tinlizzie.org/VPRIPapers/tr2011004_steps11.pdf) (Viewpoints Research) — an entire
-  computing environment in a few thousand lines of code.
+- STEPS (Alan Kay, Viewpoints Research Institute) — an entire computing environment in a few
+  thousand lines of code.
+  [original NSF report, 2007](https://tinlizzie.org/VPRIPapers/tr2007008_steps.pdf) ·
+  [final report, 2011](https://tinlizzie.org/VPRIPapers/tr2011004_steps11.pdf)
 - [Oberon](https://en.wikipedia.org/wiki/Oberon_(operating_system)) (Niklaus Wirth) — an OS and
   language built by one person, kept small on purpose.
-- Alan Kay's Dynabook / "Dynaland" vision of personal computing for learning.
+- [Dynamicland](https://dynamicland.org/) (Bret Victor) — a physical space where computation is
+  woven into everyday objects and surfaces.
 - [Singularity](<https://en.wikipedia.org/wiki/Singularity_(operating_system)>) (Microsoft
   Research) — a research OS rethought from first principles.
 <!-- - [Makerpad](https://makerpad.com) — stitching small tools together into something usable
@@ -86,4 +92,5 @@ libraries — see [Academia](academia.md) for that lineage.
 
 - GitHub: [github.com/aryx](https://github.com/aryx)
 - Twitter/X: [@yoann_padioleau](https://twitter.com/yoann_padioleau)
+- LinkedIn: [linkedin.com/in/yoann-padioleau](https://www.linkedin.com/in/yoann-padioleau-6379268/)
 - Email: yoann.padioleau [at] gmail [dot] com

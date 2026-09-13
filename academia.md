@@ -7,6 +7,8 @@ pattern-matching approach traces back to that work.
 
 ## Selected publications
 
+Full list: [DBLP](https://dblp.org/pid/24/4849.html)
+
 ### Semantic patches
 
 - **Documenting and Automating Collateral Evolutions in Linux Device Drivers**.
