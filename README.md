@@ -35,6 +35,21 @@ More: [Academia](academia.md) · [Papers](papers.md) · [Talks](talks.md) ·
 - **[xv6-multiarch](https://github.com/aryx/xv6-multiarch)** — unifying the many
   architecture-specific forks of MIT's teaching OS xv6.
 
+## Related work & inspirations
+
+- STEPS (Alan Kay, Viewpoints Research Institute) — an entire computing environment in a few
+  thousand lines of code.
+  [original NSF report, 2007](https://tinlizzie.org/VPRIPapers/tr2007008_steps.pdf) ·
+  [final report, 2011](https://tinlizzie.org/VPRIPapers/tr2011004_steps11.pdf)
+- [Oberon](https://en.wikipedia.org/wiki/Oberon_(operating_system)) (Niklaus Wirth) — an OS and
+  language built by one person, kept small on purpose.
+- [Dynamicland](https://dynamicland.org/) (Bret Victor) — a physical space where computation is
+  woven into everyday objects and surfaces.
+- [Singularity](<https://en.wikipedia.org/wiki/Singularity_(operating_system)>) (Microsoft
+  Research) — a research OS rethought from first principles.
+<!-- - [Makerpad](https://makerpad.com) — stitching small tools together into something usable
+  end-to-end. -->
+
 ## Software development
 
 - **[Semgrep](https://github.com/semgrep/semgrep)** — static analysis tool I created: find bug
@@ -72,21 +87,6 @@ More: [Academia](academia.md) · [Papers](papers.md) · [Talks](talks.md) ·
 
 **[ocamltarzan](https://github.com/aryx/ocamltarzan)** and the earlier **pfff**/**yacfe**
 libraries — see [Academia](academia.md) for that lineage.
-
-## Related work & inspirations
-
-- STEPS (Alan Kay, Viewpoints Research Institute) — an entire computing environment in a few
-  thousand lines of code.
-  [original NSF report, 2007](https://tinlizzie.org/VPRIPapers/tr2007008_steps.pdf) ·
-  [final report, 2011](https://tinlizzie.org/VPRIPapers/tr2011004_steps11.pdf)
-- [Oberon](https://en.wikipedia.org/wiki/Oberon_(operating_system)) (Niklaus Wirth) — an OS and
-  language built by one person, kept small on purpose.
-- [Dynamicland](https://dynamicland.org/) (Bret Victor) — a physical space where computation is
-  woven into everyday objects and surfaces.
-- [Singularity](<https://en.wikipedia.org/wiki/Singularity_(operating_system)>) (Microsoft
-  Research) — a research OS rethought from first principles.
-<!-- - [Makerpad](https://makerpad.com) — stitching small tools together into something usable
-  end-to-end. -->
 
 ## Elsewhere
 
