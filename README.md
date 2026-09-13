@@ -61,12 +61,13 @@ More: [Papers](papers.md) · [Talks](talks.md) · [Full software list](software.
 
 Full list: [software.md](software.md)
 
-- **[Semgrep](https://github.com/semgrep/semgrep)** — static analysis tool I created: find bug
-  patterns that look like source code. Built on
+- **[Semgrep](https://github.com/semgrep/semgrep)** — static analysis tool I created: find bugs
+  using rules that look like the code they match. Built on
   **[semgrep-pfff-libs](https://github.com/aryx/semgrep-pfff-libs)** /
-  **[semgrep-pfff-langs](https://github.com/aryx/semgrep-pfff-langs)**, its parsing libraries. My
-  latest fork, **[osemgrep](https://github.com/aryx/osemgrep)**, focuses on OCaml/C improvements
-  and LSP support.
+  **[semgrep-pfff-langs](https://github.com/aryx/semgrep-pfff-langs)**, its parsing libraries.
+  Since leaving the Semgrep company, I've kept a personal fork,
+  **[osemgrep](https://github.com/aryx/osemgrep)**, focused on OCaml/C improvements and LSP
+  support.
 - **[codemap](https://github.com/aryx/codemap)** / **[codegraph](https://github.com/aryx/codegraph)**
   — source code visualizers (treemap, dependency graph).
 - **[codequery](https://github.com/aryx/codequery)** / **[codecheck](https://github.com/aryx/codecheck)**

@@ -8,8 +8,8 @@ is everything, one line each). Raw repository list:
 
 | Project | Description |
 |---|---|
-| [Semgrep](https://github.com/semgrep/semgrep) | Static analysis tool I created: find bug patterns that look like source code. |
-| [osemgrep](https://github.com/aryx/osemgrep) | My fork of Semgrep, focused on OCaml/C improvements and LSP support. |
+| [Semgrep](https://github.com/semgrep/semgrep) | Static analysis tool I created: find bugs using rules that look like the code they match. |
+| [osemgrep](https://github.com/aryx/osemgrep) | My personal fork of Semgrep, since leaving the Semgrep company; focused on OCaml/C improvements and LSP support. |
 | [semgrep-pfff-libs](https://github.com/aryx/semgrep-pfff-libs) / [semgrep-pfff-langs](https://github.com/aryx/semgrep-pfff-langs) | Parsing libraries behind Semgrep. |
 | [pfff](https://github.com/facebookarchive/pfff) | OCaml API for static/dynamic analysis and source-to-source transformation, from my Facebook years. |
 | [codemap](https://github.com/aryx/codemap) | Source code visualizer (treemap). |
