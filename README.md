@@ -81,6 +81,8 @@ Full list: [software.md](software.md)
 - **[syncweb](https://github.com/aryx/syncweb)** — literate programming meets Unison; keeps the
   principia, xix, codemap, codegraph, and efuns docs in sync with their source.
 - **[ocaml-caps](https://github.com/aryx/ocaml-caps)** — capability-based security for OCaml.
+- **[Coccinelle](https://github.com/coccinelle/coccinelle)** — a program transformation engine for
+  C, co-authored with Julia Lawall; see [Academia](academia.md).
 - **[lfs](https://github.com/aryx/lfs)** — a logic file system, from my PhD thesis (see
   [Academia](academia.md))
 - **[dircolors.el](misc/dircolors.el)** — an old GNU Emacs mode for colorizing `ls` output.
