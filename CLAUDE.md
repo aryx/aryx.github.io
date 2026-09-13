@@ -10,7 +10,11 @@ custom layout, build script, or asset pipeline; `README.md` is rendered as the s
 
 ## Structure
 
-- `_config.yml` — sets `theme: jekyll-theme-cayman`. This is the entire site configuration.
+- `_config.yml` — sets `remote_theme: pages-themes/cayman@v0.2.0` (via the `jekyll-remote-theme`
+  plugin) rather than the gem-based `theme: jekyll-theme-cayman`. The gem-based form silently
+  failed to generate `/assets/css/style.css` on GitHub Pages' build (confirmed via genuine 404,
+  not a caching issue), leaving the whole site unstyled since it was first published in 2020.
+  `remote_theme` is GitHub's officially recommended, more reliable way to pull in a Pages theme.
 - `README.md` — the homepage content, written in Markdown (GitHub renders code fences, e.g. the
   `ocaml` block, with syntax highlighting on GitHub itself and via Jekyll's Markdown renderer on
   the published site).
