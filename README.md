@@ -38,8 +38,8 @@ More: [Academia](academia.md) · [Papers](papers.md) · [Talks](talks.md) ·
 
 ## Related work & inspirations
 
-- STEPS (Alan Kay, Viewpoints Research Institute) — an entire computing environment in a few
-  thousand lines of code.
+- STEPS (Alan Kay, Viewpoints Research Institute) — the goal was an entire computing environment
+  in a few thousand lines of code; they didn't fully get there, but the attempt is worth reading.
   [NSF grant proposal, 2006](https://mprove.de/visionreality/media/_media/KayIngalsOhshima-etal-NSF2006.pdf) ·
   [first progress report, 2007](https://tinlizzie.org/VPRIPapers/tr2007008_steps.pdf) ·
   [final report, 2011](https://tinlizzie.org/VPRIPapers/tr2011004_steps11.pdf)
