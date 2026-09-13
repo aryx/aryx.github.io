@@ -18,11 +18,13 @@ theme) — see below for why.
   the theme's Sass compile step throwing and clobbering the whole `assets/` output tree, with
   the failure not surfaced as a build error. Root cause not found upstream; worked around instead
   of relying on Jekyll to fetch/build the theme at all.
-- Three interchangeable stylesheets live in `css/`; only one is wired up at a time via the
+- Four interchangeable stylesheets live in `css/`; only one is wired up at a time via the
   `<link>` `href` in `_layouts/default.html`:
   - `css/plain.css` — intentionally empty, giving a "classic unstyled HTML" look (browser
-    defaults: serif body font, blue underlined links, no `max-width`/padding). **This is the
-    current default.**
+    defaults: serif body font, blue underlined links, no `max-width`/padding).
+  - `css/plain2.css` — same as `plain.css` (no font/color/link overrides) but adds just the
+    centered-column `max-width`/`margin`/`padding` rule from `principia.css`, so text doesn't
+    run edge-to-edge on wide windows. **This is the current default.**
   - `css/style.css` — the Cayman theme's compiled CSS, vendored as a plain static file (path
     deliberately NOT under `assets/`, to avoid the same failure mode as the theme — see above).
     Includes the bundled normalize.css (MIT licensed, per its header comment).

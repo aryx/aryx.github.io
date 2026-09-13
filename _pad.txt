@@ -3,11 +3,12 @@ built site, same as _layouts/ and _config.yml, so this never appears on aryx.git
 
 Changing the site's style
 --------------------------
-No Jekyll theme; _layouts/default.html is hand-written. Three interchangeable stylesheets
+No Jekyll theme; _layouts/default.html is hand-written. Four interchangeable stylesheets
 live under css/, but only one is active at a time (whichever the <link> in
 _layouts/default.html points at):
 
-  css/plain.css      - empty; classic unstyled HTML look (current default)
+  css/plain.css      - empty; classic unstyled HTML look
+  css/plain2.css     - plain.css + just a centered max-width column (current default)
   css/style.css      - the old Cayman theme look
   css/principia.css  - matches principia-softwarica.org and aryx.github.io/xix
 
