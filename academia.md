@@ -38,10 +38,11 @@ Full list: [DBLP](https://dblp.org/pid/24/4849.html)
   Yoann Padioleau, Olivier Ridoux.
   USENIX Annual Technical 2005 (short paper track), Anaheim, California.
   [pdf](pdfs/poffs-usenix-long.pdf)
-- **A Logic File System**.
+- **A Logic File System** (PhD thesis topic).
   Yoann Padioleau, Olivier Ridoux.
   USENIX Annual Technical 2003, San Antonio, Texas.
-  [pdf](pdfs/lfs-usenix.pdf)
+  [pdf](pdfs/lfs-usenix.pdf) · PhD thesis (French):
+  [pdf](pdfs/lfs-thesis-french.pdf)
 
   Code: **[lfs](https://github.com/aryx/lfs)**, the logic file system from the paper.
 

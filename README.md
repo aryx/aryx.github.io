@@ -19,20 +19,23 @@ More: [Papers](papers.md) · [Talks](talks.md) · [Full software list](software.
 - **[principia-softwarica](https://github.com/aryx/principia-softwarica)** — a fork of Plan 9,
   rewritten as a teaching operating system, in C.
   ([principia-softwarica.org](https://principia-softwarica.org/))
-  - spinoffs: **[goken9cc](https://github.com/aryx/goken9cc)**, a portable multi-architecture
-    toolchain (compilers, assemblers, linkers) rooted in the Plan 9/Inferno toolchains, extended
-    to also target Linux/macOS/Windows; **[chidb](https://github.com/aryx/chidb)**, a teaching
-    database engine
+  - spinoffs:
+    - **[goken9cc](https://github.com/aryx/goken9cc)** — a portable multi-architecture toolchain
+      (compilers, assemblers, linkers) rooted in the Plan 9/Inferno toolchains, extended to also
+      target Linux/macOS/Windows
+    - **[chidb](https://github.com/aryx/chidb)** — a teaching database engine
 - **[xix](https://github.com/aryx/xix)** — the Plan 9 userland ported to OCaml, for teaching
   systems programming with a saner language. ([aryx.github.io/xix](https://aryx.github.io/xix))
-  - spinoffs: **[ocaml-light](https://github.com/aryx/ocaml-light)**, OCaml 1.07 stripped of
-    objects and functors for teaching; **[efuns](https://github.com/aryx/efuns)** /
-    **[mmm](https://github.com/aryx/mmm)**, an Emacs clone and a web browser, both in OCaml;
-    **[tigerc\-\-](https://github.com/aryx/tigerc--)** / **[quickc\-\-](https://github.com/aryx/quickc--)**,
-    forks built around the Tiger compiler and the C\-\- portable assembly language;
-    **[ocaml-caps](https://github.com/aryx/ocaml-caps)** /
-    **[ocaml-commons](https://github.com/aryx/ocaml-commons)**, capability types and stdlib
-    extensions shared by the above
+  - spinoffs:
+    - **[ocaml-light](https://github.com/aryx/ocaml-light)** — OCaml 1.07 stripped of objects and
+      functors for teaching
+    - **[efuns](https://github.com/aryx/efuns)** / **[mmm](https://github.com/aryx/mmm)** — an
+      Emacs clone and a web browser, both in OCaml
+    - **[tigerc\-\-](https://github.com/aryx/tigerc--)** / **[quickc\-\-](https://github.com/aryx/quickc--)**
+      — forks built around the Tiger compiler and the C\-\- portable assembly language
+    - **[ocaml-caps](https://github.com/aryx/ocaml-caps)** /
+      **[ocaml-commons](https://github.com/aryx/ocaml-commons)** — capability types and stdlib
+      extensions shared by the above
 - **[xv6-multiarch](https://github.com/aryx/xv6-multiarch)** — unifying the many
   architecture-specific forks of MIT's teaching OS xv6.
 
@@ -62,36 +65,39 @@ More: [Papers](papers.md) · [Talks](talks.md) · [Full software list](software.
 Full list: [software.md](software.md)
 
 - **[Semgrep](https://github.com/semgrep/semgrep)** — static analysis tool I created: find bugs
-  using rules that look like the code they match. Built on
+  using rules that look like the code they match, continuing the semantic code search and
+  transformation line of work from the original sgrep/Coccinelle research (see
+  [Academia](academia.md)) through pfff at Facebook. Built on
   **[semgrep-pfff-libs](https://github.com/aryx/semgrep-pfff-libs)** /
   **[semgrep-pfff-langs](https://github.com/aryx/semgrep-pfff-langs)**, its parsing libraries.
   Since leaving the Semgrep company, I've kept a personal fork,
   **[osemgrep](https://github.com/aryx/osemgrep)**, focused on OCaml/C improvements and LSP
   support.
 - **[codemap](https://github.com/aryx/codemap)** / **[codegraph](https://github.com/aryx/codegraph)**
-  — source code visualizers (treemap, dependency graph).
+  — source code visualizers (treemap, dependency graph); visualizing code instead of just reading
+  it.
 - **[codequery](https://github.com/aryx/codequery)** / **[codecheck](https://github.com/aryx/codecheck)**
   — querying and checking a codebase.
-- **[efuns](https://github.com/aryx/efuns)** — an Emacs clone with a GTK/Cairo GUI.
-
-<!-- Eventually I'd like to tie all of these together into one Makerpad-like tool. -->
-
-## Original work
-
-- Semantic code search and transformation: from the original sgrep/Coccinelle research (see
-  [Academia](academia.md)), through pfff at Facebook, to today's
-  **[Semgrep](https://github.com/semgrep/semgrep)**.
-- **[codemap](https://github.com/aryx/codemap)** / **[codegraph](https://github.com/aryx/codegraph)**
-  — visualizing code instead of just reading it.
 - **[syncweb](https://github.com/aryx/syncweb)** — literate programming meets Unison; keeps the
   principia, xix, codemap, codegraph, and efuns docs in sync with their source.
 - **[ocaml-caps](https://github.com/aryx/ocaml-caps)** — capability-based security for OCaml.
-- **[lfs](https://github.com/aryx/lfs)** — a logic file system :)
+- **[lfs](https://github.com/aryx/lfs)** — a logic file system, from my PhD thesis (see
+  [Academia](academia.md))
+- **[dircolors.el](misc/dircolors.el)** — an old GNU Emacs mode for colorizing `ls` output.
+
+<!-- Eventually I'd like to tie all of these together into one Makerpad-like tool. -->
 
 ## Fun & games
 
 - **[ocaml-elm-playground](https://github.com/aryx/ocaml-elm-playground)** — an OCaml port of the
   Elm playground package, for making pictures, animations, and small games easily.
+- ICFP Programming Contest — competed five years running, always in OCaml:
+  [raytracer](contests/icfp-2000-raytracer.tgz) (2000),
+  [XML](contests/icfp-2001-xml.tgz) (2001),
+  [robots](contests/icfp-2002-robots.tgz) (2002, team "Magic Insa" with Pascal Rigaux —
+  [writeup](contests/icfp2002.html)),
+  [race](contests/icfp-2003-race.tgz) (2003),
+  [cop-robber](contests/icfp-2005-cop-robber.tgz) (2005).
 
 ## Deprecated
 

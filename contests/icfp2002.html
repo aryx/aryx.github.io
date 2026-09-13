@@ -1,0 +1,46 @@
+<html><head><title>ICFP 2002 Programming Contest Entry</title></head>
+<body>
+
+<h1>Magic Insa team</h1>
+
+<h2>Members</h2>
+
+<ul>
+<li>Pascal Rigaux    aka pixel (pixel@merd.net)</li>
+<li>Yoann  Padioleau aka pad   (padiolea@irisa.fr)</li>
+<li>Pascal Garcia    aka jarod  (pgarcia@irisa.fr)</li>
+<li>David Sahuc      aka dede   (sahucd@thmulti.com)</li>
+</ul>
+
+<h2>Langage</h2>
+
+We used Ocaml. 
+
+<h2>Algorithm</h2>
+
+We used 3 modules that were cascaded. 
+
+<p>The first module was in charge
+to find a "plan" which is a list of objectives such as drop a package, pick a package or visit a homebase.
+We used a mix of greedy knapsack and brute force traveling salesman algorithm.
+This plan is recomputed each time a new event occur (such as a new robot appearing, someone pick
+a package we wanted, ...).
+
+<p>
+The second module, try to infer when we are in a deadlock situation, that is we dont progress
+in our plan, and in such case do random things for a while.
+
+<p>
+The last module, is based on a pattern engine that looks locally around our robot, to either
+survive, kill, ...
+
+<p>
+We used a cache for the distance, that used a wave propagation kind algorithm.
+This algo allow to know fastly, for some privileged points (such as homebase, or destination delivery point ...)
+the distance from this privilege points to any other point in the map.
+This allow to compute fastly the shortest path.
+
+<h2>Code</h2>
+
+Our submission, shyant,  is available <a href="icfp-2002-robots.tgz">here</a>.  
+</body></html>
