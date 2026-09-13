@@ -12,7 +12,7 @@ Before that, at Facebook working on [pfff](https://github.com/facebookarchive/pf
 sgrep (Semgrep's ancestor) — see [Industry](industry.md). And before that, a PhD and postdoc in
 program analysis — see [Academia](academia.md).
 
-More: [Papers](papers.md) · [Talks](talks.md) · [Full software list](software.md)
+More: [Programs](software.md)  · [Papers](papers.md) · [Talks](talks.md)
 
 ## Education projects
 
