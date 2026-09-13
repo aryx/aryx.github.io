@@ -40,7 +40,8 @@ More: [Academia](academia.md) · [Papers](papers.md) · [Talks](talks.md) ·
 
 - STEPS (Alan Kay, Viewpoints Research Institute) — an entire computing environment in a few
   thousand lines of code.
-  [original NSF report, 2007](https://tinlizzie.org/VPRIPapers/tr2007008_steps.pdf) ·
+  [NSF grant proposal, 2006](https://mprove.de/visionreality/media/_media/KayIngalsOhshima-etal-NSF2006.pdf) ·
+  [first progress report, 2007](https://tinlizzie.org/VPRIPapers/tr2007008_steps.pdf) ·
   [final report, 2011](https://tinlizzie.org/VPRIPapers/tr2011004_steps11.pdf)
 - [Oberon](https://en.wikipedia.org/wiki/Oberon_(operating_system)) (Niklaus Wirth) — an OS and
   language built by one person, kept small on purpose.
