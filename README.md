@@ -72,7 +72,7 @@ libraries — see [Academia](academia.md) for that lineage.
 
 ## Related work & inspirations
 
-- [STEPS](http://www.vpri.org/pdf/tr2011004_steps11.pdf) (Viewpoints Research) — an entire
+- [STEPS](https://tinlizzie.org/VPRIPapers/tr2011004_steps11.pdf) (Viewpoints Research) — an entire
   computing environment in a few thousand lines of code.
 - [Oberon](https://en.wikipedia.org/wiki/Oberon_(operating_system)) (Niklaus Wirth) — an OS and
   language built by one person, kept small on purpose.
