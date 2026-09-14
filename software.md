@@ -1,7 +1,6 @@
 # Software
 
-A flat, systematic list of my software projects (the README groups the main ones by theme; this
-is everything, one line each). Raw repository list:
+A flat, systematic list of my software projects. Raw repository list:
 [github.com/aryx?tab=repositories](https://github.com/aryx?tab=repositories).
 
 ## From scratch
