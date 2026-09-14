@@ -107,11 +107,6 @@ Full list: [software.md](software.md)
 - linux-livecd — an early Linux live CD I built, predating Knoppix and the wave of live-CD
   distros that followed; never published beyond a circle of friends.
 
-## Deprecated
-
-**[ocamltarzan](https://github.com/aryx/ocamltarzan)** and the earlier **pfff**/**yacfe**
-libraries — see [Academia](academia.md) for that lineage.
-
 ## Elsewhere
 
 - GitHub: [github.com/aryx](https://github.com/aryx)
