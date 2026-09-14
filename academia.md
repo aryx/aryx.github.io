@@ -2,8 +2,11 @@
 
 Before moving into industry (and later into education), I did a PhD under
 [Olivier Ridoux](https://www.irisa.fr/lande/ridoux/) at IRISA, followed by a postdoc in the
-Coccinelle project under [Julia Lawall](https://www.diku.dk/~julia/) and Gilles Muller. Semgrep's
-pattern-matching approach traces back to that work.
+Coccinelle project under [Julia Lawall](https://www.diku.dk/~julia/) and
+[Gilles Muller](https://who.paris.inria.fr/Gilles.Muller/), and then a postdoc (2007–2009) in
+[Yuanyuan Zhou](https://cseweb.ucsd.edu/~yyzhou/)'s Opera group, working mostly with
+[Lin Tan](https://www.cs.purdue.edu/homes/lintan/). Semgrep's pattern-matching approach traces
+back to the Coccinelle work.
 
 ## Selected publications
 
@@ -53,9 +56,10 @@ Full list: [DBLP](https://dblp.org/pid/24/4849.html)
   CC 2009, York, United Kingdom.
   [pdf](pdfs/yacfe-cc09.pdf)
 
-  Code: **[yacfe](https://github.com/aryx/yacfe)** (Yet Another C Front-End) and
-  **[pfff](https://github.com/semgrep/pfff)**, the style-preserving C/C++ parsing and
-  transformation libraries this paper is based on — ancestors of today's
+  Code: **[yacfe](https://github.com/aryx/yacfe)** (Yet Another C Front-End), the
+  style-preserving C/C++ parsing and transformation library this paper is based on, itself
+  descending from work on Coccinelle and on comment analysis. yacfe later grew into
+  **[pfff](https://github.com/semgrep/pfff)**, ancestor of today's
   **[semgrep-pfff-libs](https://github.com/aryx/semgrep-pfff-libs)** /
   **[semgrep-pfff-langs](https://github.com/aryx/semgrep-pfff-langs)**.
 
