@@ -9,13 +9,13 @@ I'm the main author of most of these (often also the single author), except Cocc
 
 | Project | Description |
 |---|---|
-| [xix](https://github.com/aryx/xix) | A from-scratch rewrite, in OCaml, of the Plan 9 userland. |
-| [syncweb](https://github.com/aryx/syncweb) | Literate programming meets Unison. |
+| [xix](https://github.com/aryx/xix) | A from-scratch rewrite, in OCaml, of Plan 9 — the windowing system and userland so far, eventually also the kernel. |
+| [syncweb](https://github.com/aryx/syncweb) | A literate programming tool that lets you edit either the code or the literate doc and stay in sync both ways, fixing the biggest complaint about original literate programming tools (which required editing only the doc, code being generated/extracted one-way). |
 | [ocaml-caps](https://github.com/aryx/ocaml-caps) | Capability types and rules for OCaml. |
 | [Semgrep](https://github.com/semgrep/semgrep) | Static analysis tool: find bugs using rules that look like the code they match. |
 | [osemgrep](https://github.com/aryx/osemgrep) | My personal fork of Semgrep, since leaving the Semgrep company; focused on OCaml/C improvements and LSP support. |
 | [semgrep-pfff-libs](https://github.com/aryx/semgrep-pfff-libs) / [semgrep-pfff-langs](https://github.com/aryx/semgrep-pfff-langs) | Parsing libraries behind Semgrep. |
-| [pfff](https://github.com/facebookarchive/pfff) | A big monorepo of language parsers and tools built on them (semantic search/grep, semantic patch, refactoring, visualization, ...), from my Facebook years. Ancestor of semgrep-pfff-libs/langs, Semgrep, and codemap/codegraph below. |
+| [pfff](https://github.com/facebookarchive/pfff) | A big monorepo of language parsers and tools built on them (semantic search/grep, semantic patch, refactoring, visualization, ...), from my Facebook years. Ancestor of semgrep-pfff-libs/langs, Semgrep, and codemap/codegraph below. Also used internally at Facebook by closed-source tools such as checkModule, a dead code analyzer, and dynamic/static test-coverage indexing and test-runner optimization (à la Echelon, a Microsoft Research paper from around 2010) — mostly bug-finding tools for what would now be called appsec (the term didn't exist yet in 2010). |
 | [codemap](https://github.com/aryx/codemap) | Source code visualizer (treemap). |
 | [codegraph](https://github.com/aryx/codegraph) | Source code dependencies visualizer. |
 | [codequery](https://github.com/aryx/codequery) | Querying a codebase using Prolog. |
@@ -25,7 +25,6 @@ I'm the main author of most of these (often also the single author), except Cocc
 | [ocamltarzan](https://github.com/aryx/ocamltarzan) | (deprecated) Compile-time reflection / metaprogramming for OCaml. |
 | [Coccinelle](https://github.com/coccinelle/coccinelle) | A program transformation engine for C, co-authored with Julia Lawall. |
 | [lfs](https://github.com/aryx/lfs) | Logic file system. |
-| [meh](https://github.com/aryx/meh) | A small web browser (the name is a French pun: "un brouteur web"). |
 | [ocaml-elm-playground](https://github.com/aryx/ocaml-elm-playground) | An OCaml library for pictures/animations/small games, modeled on Evan Czaplicki's Elm playground package. |
 
 ## Forks / took over someone else's work

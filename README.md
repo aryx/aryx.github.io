@@ -24,8 +24,9 @@ More: [Programs](software.md)  · [Papers](papers.md) · [Talks](talks.md)
       (compilers, assemblers, linkers) rooted in the Plan 9/Inferno toolchains, extended to also
       target Linux/macOS/Windows
     - **[chidb](https://github.com/aryx/chidb)** — a teaching database engine
-- **[xix](https://github.com/aryx/xix)** — a from-scratch rewrite, in OCaml, of the Plan 9
-  userland, for teaching systems programming with a saner language.
+- **[xix](https://github.com/aryx/xix)** — a from-scratch rewrite, in OCaml, of Plan 9 — the
+  windowing system and userland so far, eventually also the kernel — for teaching systems
+  programming with a saner language.
   ([aryx.github.io/xix](https://aryx.github.io/xix))
   - spinoffs:
     - **[ocaml-light](https://github.com/aryx/ocaml-light)** — OCaml 1.07 stripped of objects and
@@ -83,7 +84,8 @@ Full list: [software.md](software.md)
   it.
 - **[codequery](https://github.com/aryx/codequery)** / **[codecheck](https://github.com/aryx/codecheck)**
   — querying and checking a codebase.
-- **[syncweb](https://github.com/aryx/syncweb)** — literate programming meets Unison; keeps the
+- **[syncweb](https://github.com/aryx/syncweb)** — a literate programming tool; lets you edit code
+  or doc and stay in sync both ways (unlike original literate programming, doc-only); keeps the
   principia, xix, codemap, codegraph, and efuns docs in sync with their source.
 - **[Coccinelle](https://github.com/coccinelle/coccinelle)** — a program transformation engine for
   C, co-authored with Julia Lawall; see [Academia](academia.md).
