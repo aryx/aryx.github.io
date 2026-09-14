@@ -14,6 +14,10 @@ program analysis — see [Academia](academia.md).
 
 More: [Programs](software.md)  · [Papers](papers.md) · [Talks](talks.md)
 
+## News
+
+- **September 2026** — New website! We're live again (last website and last update was in 2010).
+
 ## Education projects
 
 - **[principia-softwarica](https://github.com/aryx/principia-softwarica)** — a fork of Plan 9,
