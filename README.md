@@ -34,9 +34,6 @@ More: [Programs](software.md)  · [Papers](papers.md) · [Talks](talks.md)
       Emacs clone and a web browser, both in OCaml
     - **[tigerc\-\-](https://github.com/aryx/tigerc--)** / **[quickc\-\-](https://github.com/aryx/quickc--)**
       — forks built around the Tiger compiler and the C\-\- portable assembly language
-    - **[ocaml-caps](https://github.com/aryx/ocaml-caps)** /
-      **[ocaml-commons](https://github.com/aryx/ocaml-commons)** — capability types and stdlib
-      extensions shared by the above
 - **[xv6-multiarch](https://github.com/aryx/xv6-multiarch)** — unifying the many
   architecture-specific forks of MIT's teaching OS xv6.
 
@@ -68,12 +65,15 @@ Full list: [software.md](software.md)
 - **[Semgrep](https://github.com/semgrep/semgrep)** — static analysis tool I created: find bugs
   using rules that look like the code they match, continuing the semantic code search and
   transformation line of work from the original sgrep/Coccinelle research (see
-  [Academia](academia.md)) through pfff at Facebook. Built on
-  **[semgrep-pfff-libs](https://github.com/aryx/semgrep-pfff-libs)** /
-  **[semgrep-pfff-langs](https://github.com/aryx/semgrep-pfff-langs)**, its parsing libraries.
-  Since leaving the Semgrep company, I've kept a personal fork,
-  **[osemgrep](https://github.com/aryx/osemgrep)**, focused on OCaml/C improvements and LSP
-  support.
+  [Academia](academia.md)) through pfff at Facebook.
+  - spinoffs:
+    - **[osemgrep](https://github.com/aryx/osemgrep)** — my personal fork since leaving the
+      Semgrep company, focused on OCaml/C improvements and LSP support
+    - **[semgrep-pfff-libs](https://github.com/aryx/semgrep-pfff-libs)** /
+      **[semgrep-pfff-langs](https://github.com/aryx/semgrep-pfff-langs)** — Semgrep's parsing
+      libraries, shared with codemap, codegraph, efuns, and syncweb
+    - **[ocaml-caps](https://github.com/aryx/ocaml-caps)** — capability-based security for OCaml
+    - **[ocaml-commons](https://github.com/aryx/ocaml-commons)** — stdlib extensions
 - **[codemap](https://github.com/aryx/codemap)** / **[codegraph](https://github.com/aryx/codegraph)**
   — source code visualizers (treemap, dependency graph); visualizing code instead of just reading
   it.
@@ -81,7 +81,6 @@ Full list: [software.md](software.md)
   — querying and checking a codebase.
 - **[syncweb](https://github.com/aryx/syncweb)** — literate programming meets Unison; keeps the
   principia, xix, codemap, codegraph, and efuns docs in sync with their source.
-- **[ocaml-caps](https://github.com/aryx/ocaml-caps)** — capability-based security for OCaml.
 - **[Coccinelle](https://github.com/coccinelle/coccinelle)** — a program transformation engine for
   C, co-authored with Julia Lawall; see [Academia](academia.md).
 - **[lfs](https://github.com/aryx/lfs)** — a logic file system, from my PhD thesis (see
