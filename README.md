@@ -48,6 +48,10 @@ More: [Programs](software.md)  · [Papers](papers.md) · [Talks](talks.md)
   language built by one person, kept small on purpose.
   [official site](https://www.projectoberon.net/) ·
   [book pdf](https://worrydream.com/refs/Wirth_2005_-_Project_Oberon.pdf)
+- [The Elements of Computing Systems](https://mitpress.mit.edu/9780262539807/the-elements-of-computing-systems/)
+  (Noam Nisan & Shimon Schocken) — building a whole computer, from NAND gates up through an OS,
+  in twelve incremental projects. [nand2tetris](https://www.nand2tetris.org/) is the course built
+  around the book. [intro video](https://www.youtube.com/watch?v=qAF4kkUFU9I)
 - [TempleOS](https://en.wikipedia.org/wiki/TempleOS) (Terry A. Davis) — another one-person OS,
   down to its own compiler and language; its author's life was troubled and the project
   controversial, but the sheer scope of it built solo is still striking.
