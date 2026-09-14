@@ -39,26 +39,26 @@ More: [Programs](software.md)  · [Papers](papers.md) · [Talks](talks.md)
 
 ## Related work & inspirations
 
-- STEPS (Alan Kay, Viewpoints Research Institute) — the goal was an entire computing environment
+- [Oberon](https://en.wikipedia.org/wiki/Oberon_(operating_system)) (Niklaus Wirth, 1988) — an OS and
+  language built by one person, kept small on purpose.
+  [official site](https://www.projectoberon.net/) ·
+  [book pdf](https://worrydream.com/refs/Wirth_2005_-_Project_Oberon.pdf)
+- [Singularity](<https://en.wikipedia.org/wiki/Singularity_(operating_system)>) (Microsoft
+  Research, 2003) — a research OS rethought from first principles.
+- [The Elements of Computing Systems](https://mitpress.mit.edu/9780262539807/the-elements-of-computing-systems/)
+  (Noam Nisan & Shimon Schocken, 2005) — building a whole computer, from NAND gates up through an OS,
+  in twelve incremental projects. [nand2tetris](https://www.nand2tetris.org/) is the course built
+  around the book. [intro video](https://www.youtube.com/watch?v=qAF4kkUFU9I)
+- [TempleOS](https://en.wikipedia.org/wiki/TempleOS) (Terry A. Davis, 2005) — another one-person OS,
+  down to its own compiler and language; its author's life was troubled and the project
+  controversial, but the sheer scope of it built solo is still striking.
+- STEPS (Alan Kay, Viewpoints Research Institute, 2006–2012) — the goal was an entire computing environment
   in a few thousand lines of code; they didn't fully get there, but the attempt is worth reading.
   [NSF grant proposal, 2006](https://mprove.de/visionreality/media/_media/KayIngalsOhshima-etal-NSF2006.pdf) ·
   [first progress report, 2007](https://tinlizzie.org/VPRIPapers/tr2007008_steps.pdf) ·
   [final report, 2011](https://tinlizzie.org/VPRIPapers/tr2011004_steps11.pdf)
-- [Oberon](https://en.wikipedia.org/wiki/Oberon_(operating_system)) (Niklaus Wirth) — an OS and
-  language built by one person, kept small on purpose.
-  [official site](https://www.projectoberon.net/) ·
-  [book pdf](https://worrydream.com/refs/Wirth_2005_-_Project_Oberon.pdf)
-- [The Elements of Computing Systems](https://mitpress.mit.edu/9780262539807/the-elements-of-computing-systems/)
-  (Noam Nisan & Shimon Schocken) — building a whole computer, from NAND gates up through an OS,
-  in twelve incremental projects. [nand2tetris](https://www.nand2tetris.org/) is the course built
-  around the book. [intro video](https://www.youtube.com/watch?v=qAF4kkUFU9I)
-- [TempleOS](https://en.wikipedia.org/wiki/TempleOS) (Terry A. Davis) — another one-person OS,
-  down to its own compiler and language; its author's life was troubled and the project
-  controversial, but the sheer scope of it built solo is still striking.
-- [Dynamicland](https://dynamicland.org/) (Bret Victor) — a physical space where computation is
+- [Dynamicland](https://dynamicland.org/) (Bret Victor, 2017) — a physical space where computation is
   woven into everyday objects and surfaces.
-- [Singularity](<https://en.wikipedia.org/wiki/Singularity_(operating_system)>) (Microsoft
-  Research) — a research OS rethought from first principles.
 <!-- - [Makerpad](https://makerpad.com) — stitching small tools together into something usable
   end-to-end. -->
 
