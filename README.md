@@ -126,5 +126,4 @@ Full list: [software.md](software.md)
 <small>Try this page with a different look:
 [plain HTML](?css=plain) ·
 [plain HTML, centered](?css=plain2) ·
-[Cayman theme](?css=cayman) ·
 [Principia style](?css=principia)</small>
