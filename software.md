@@ -5,12 +5,14 @@ A flat, systematic list of my software projects. Raw repository list:
 
 ## From scratch
 
+I'm the main author of most of these (often also the single author), except Coccinelle, co-authored with Julia Lawall.
+
 | Project | Description |
 |---|---|
 | [xix](https://github.com/aryx/xix) | A from-scratch rewrite, in OCaml, of the Plan 9 userland. |
 | [syncweb](https://github.com/aryx/syncweb) | Literate programming meets Unison. |
 | [ocaml-caps](https://github.com/aryx/ocaml-caps) | Capability types and rules for OCaml. |
-| [Semgrep](https://github.com/semgrep/semgrep) | Static analysis tool I created: find bugs using rules that look like the code they match. |
+| [Semgrep](https://github.com/semgrep/semgrep) | Static analysis tool: find bugs using rules that look like the code they match. |
 | [osemgrep](https://github.com/aryx/osemgrep) | My personal fork of Semgrep, since leaving the Semgrep company; focused on OCaml/C improvements and LSP support. |
 | [semgrep-pfff-libs](https://github.com/aryx/semgrep-pfff-libs) / [semgrep-pfff-langs](https://github.com/aryx/semgrep-pfff-langs) | Parsing libraries behind Semgrep. |
 | [pfff](https://github.com/facebookarchive/pfff) | A big monorepo of language parsers and tools built on them (semantic search/grep, semantic patch, refactoring, visualization, ...), from my Facebook years. Ancestor of semgrep-pfff-libs/langs, Semgrep, and codemap/codegraph below. |
@@ -21,20 +23,23 @@ A flat, systematic list of my software projects. Raw repository list:
 | [yacfe](https://github.com/aryx/yacfe) | (deprecated) Yet Another C Front-End: style-preserving C/C++ transformations. |
 | [ocaml-commons](https://github.com/aryx/ocaml-commons) | OCaml standard library extensions. |
 | [ocamltarzan](https://github.com/aryx/ocamltarzan) | (deprecated) Compile-time reflection / metaprogramming for OCaml. |
+| [Coccinelle](https://github.com/coccinelle/coccinelle) | A program transformation engine for C, co-authored with Julia Lawall. |
 | [lfs](https://github.com/aryx/lfs) | Logic file system. |
 | [meh](https://github.com/aryx/meh) | A small web browser (the name is a French pun: "un brouteur web"). |
 | [ocaml-elm-playground](https://github.com/aryx/ocaml-elm-playground) | An OCaml library for pictures/animations/small games, modeled on Evan Czaplicki's Elm playground package. |
 
 ## Forks / took over someone else's work
 
+Originally written by others, but extended and often reorganized by me (and lately also Claude Code).
+
 | Project | Description |
 |---|---|
-| [principia-softwarica](https://github.com/aryx/principia-softwarica) | Plan 9 (Bell Labs: Ken Thompson, Rob Pike, and others), rewritten as a teaching operating system, in C. |
+| [principia-softwarica](https://github.com/aryx/principia-softwarica) | Plan 9 (Bell Labs: Ken Thompson, Rob Pike, and others), repurposed as a teaching operating system, in C. |
 | [goken9cc](https://github.com/aryx/goken9cc) | Portable multi-architecture toolchain rooted in the Plan 9/Inferno toolchains (later extended by Go developers), extended further to Linux/macOS/Windows. |
 | [chidb](https://github.com/aryx/chidb) | A teaching database engine, originally by Borja Sotomayor and Adam Shaw (UChicago). |
-| [ocaml-light](https://github.com/aryx/ocaml-light) | OCaml 1.07 (INRIA) stripped of objects and functors, for teaching. |
+| [ocaml-light](https://github.com/aryx/ocaml-light) | OCaml 1.07, originally by Xavier Leroy et al. (INRIA), stripped of objects and functors, for teaching. |
 | [efuns](https://github.com/aryx/efuns) | An Emacs clone, originally by Fabrice Le Fessant (INRIA); I took over maintenance in 2015. |
-| [mmm](https://github.com/aryx/mmm) | My fork of the OCaml MMM web browser (originally INRIA). |
+| [mmm](https://github.com/aryx/mmm) | My fork of the OCaml MMM web browser, originally by Francois Rouaix (INRIA). |
 | [tigerc\-\-](https://github.com/aryx/tigerc--) | Fork built around the Tiger compiler (from Andrew Appel's textbook). |
 | [quickc\-\-](https://github.com/aryx/quickc--) | Fork of Quick C\-\- (Norman Ramsey), a compiler for the C\-\- portable assembly language. |
 | [xv6-multiarch](https://github.com/aryx/xv6-multiarch) | Unifying the many architecture-specific forks of MIT's teaching OS xv6. |
