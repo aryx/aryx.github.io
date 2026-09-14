@@ -65,15 +65,15 @@ Full list: [software.md](software.md)
 - **[Semgrep](https://github.com/semgrep/semgrep)** — static analysis tool I created: find bugs
   using rules that look like the code they match, continuing the semantic code search and
   transformation line of work from the original sgrep/Coccinelle research (see
-  [Academia](academia.md)) through pfff at Facebook.
+  [Academia](academia.md)) through pfff at Facebook (see [Industry](industry.md)).
   - spinoffs:
-    - **[osemgrep](https://github.com/aryx/osemgrep)** — my personal fork since leaving the
-      Semgrep company, focused on OCaml/C improvements and LSP support
     - **[semgrep-pfff-libs](https://github.com/aryx/semgrep-pfff-libs)** /
       **[semgrep-pfff-langs](https://github.com/aryx/semgrep-pfff-langs)** — Semgrep's parsing
       libraries, shared with codemap, codegraph, efuns, and syncweb
-    - **[ocaml-caps](https://github.com/aryx/ocaml-caps)** — capability-based security for OCaml
     - **[ocaml-commons](https://github.com/aryx/ocaml-commons)** — stdlib extensions
+    - **[ocaml-caps](https://github.com/aryx/ocaml-caps)** — capability-based security for OCaml
+    - **[osemgrep](https://github.com/aryx/osemgrep)** — my personal fork since leaving the
+      Semgrep company, focused on OCaml/C improvements and LSP support
 - **[codemap](https://github.com/aryx/codemap)** / **[codegraph](https://github.com/aryx/codegraph)**
   — source code visualizers (treemap, dependency graph); visualizing code instead of just reading
   it.
