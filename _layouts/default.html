@@ -5,7 +5,21 @@
 
 {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/css/plain2.css' | relative_url }}">
+    <script>
+      (function () {
+        var styles = { plain: "plain", plain2: "plain2", cayman: "style", principia: "principia" };
+        var param = new URLSearchParams(location.search).get("css");
+        var pick = styles[param];
+        if (pick) {
+          try { localStorage.setItem("css", param); } catch (e) {}
+        } else {
+          try { pick = styles[localStorage.getItem("css")]; } catch (e) {}
+        }
+        pick = pick || "plain2";
+        document.write('<link rel="stylesheet" href="{{ "/css/" | relative_url }}' + pick + '.css">');
+      })();
+    </script>
+    <noscript><link rel="stylesheet" href="{{ '/css/plain2.css' | relative_url }}"></noscript>
   </head>
   <body>
     {{ content }}

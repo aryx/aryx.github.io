@@ -120,3 +120,11 @@ Full list: [software.md](software.md)
 - LinkedIn: [linkedin.com/in/yoann-padioleau](https://www.linkedin.com/in/yoann-padioleau-6379268/)
 - Email: yoann.padioleau [at] gmail [dot] com
 - Old homepage (archived, 2015): [web.archive.org/.../padator.org/homepage.php](https://web.archive.org/web/20150520035946/http://padator.org/homepage.php)
+
+---
+
+<small>Try this page with a different look:
+[plain HTML](?css=plain) ·
+[plain HTML, centered](?css=plain2) ·
+[Cayman theme](?css=cayman) ·
+[Principia style](?css=principia)</small>
