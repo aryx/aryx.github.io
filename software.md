@@ -35,12 +35,12 @@ Originally written by others, but extended and often reorganized by me (and late
 |---|---|
 | [principia-softwarica](https://github.com/aryx/principia-softwarica) | Plan 9 (Bell Labs: Ken Thompson, Rob Pike, and others), repurposed as a teaching operating system, in C. |
 | [goken9cc](https://github.com/aryx/goken9cc) | Portable multi-architecture toolchain rooted in the Plan 9/Inferno toolchains (later extended by Go developers), extended further to Linux/macOS/Windows. |
+| [xv6-multiarch](https://github.com/aryx/xv6-multiarch) | Unifying the many architecture-specific forks of MIT's teaching OS xv6. |
 | [chidb](https://github.com/aryx/chidb) | A teaching database engine, originally by Borja Sotomayor and Adam Shaw (UChicago). |
 | [ocaml-light](https://github.com/aryx/ocaml-light) | OCaml 1.07, originally by Xavier Leroy et al. (INRIA), stripped of objects and functors, for teaching. |
 | [efuns](https://github.com/aryx/efuns) | An Emacs clone, originally by Fabrice Le Fessant (INRIA); I took over maintenance in 2015. |
 | [mmm](https://github.com/aryx/mmm) | My fork of the OCaml MMM web browser, originally by Francois Rouaix (INRIA). |
 | [tigerc\-\-](https://github.com/aryx/tigerc--) | Fork built around the Tiger compiler (from Andrew Appel's textbook). |
 | [quickc\-\-](https://github.com/aryx/quickc--) | Fork of Quick C\-\- (Norman Ramsey), a compiler for the C\-\- portable assembly language. |
-| [xv6-multiarch](https://github.com/aryx/xv6-multiarch) | Unifying the many architecture-specific forks of MIT's teaching OS xv6. |
 
 [&larr; back to the main page](README.md)

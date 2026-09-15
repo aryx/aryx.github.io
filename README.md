@@ -79,10 +79,10 @@ Full list: [software.md](software.md)
     - **[semgrep-pfff-libs](https://github.com/aryx/semgrep-pfff-libs)** /
       **[semgrep-pfff-langs](https://github.com/aryx/semgrep-pfff-langs)** — Semgrep's parsing
       libraries, shared with codemap, codegraph, efuns, and syncweb
-    - **[ocaml-commons](https://github.com/aryx/ocaml-commons)** — stdlib extensions
     - **[ocaml-caps](https://github.com/aryx/ocaml-caps)** — capability-based security for OCaml
+    - **[ocaml-commons](https://github.com/aryx/ocaml-commons)** — stdlib extensions
     - **[osemgrep](https://github.com/aryx/osemgrep)** — my personal fork since leaving the
-      Semgrep company, focused on OCaml/C improvements and LSP support
+      Semgrep company, focused on OCaml/C improvements and using LSP/LSIF/SCIP.
 - **[codemap](https://github.com/aryx/codemap)** / **[codegraph](https://github.com/aryx/codegraph)**
   — source code visualizers (treemap, dependency graph); visualizing code instead of just reading
   it.
