@@ -4,7 +4,8 @@
   [video](https://www.youtube.com/watch?v=4t_2wLz9EOo) ·
   [slides](https://aryx.github.io/ocaml-caps/caps.html)
 - **Principia Softwarica: Plan 9 Code Explained**. IWP9 (International Workshop on Plan 9), 2026.
-  [video](https://www.youtube.com/watch?v=blVTDhr4QN8)
+  [video](https://www.youtube.com/watch?v=blVTDhr4QN8) ·
+  [slides](https://aryx.github.io/assets/pdfs/slides.pdf)
 - **Goken: The Plan 9 Toolchain Reborn**. IWP9, 2026.
   [video](https://www.youtube.com/watch?v=E3iUpyqKvgk)
 - **Semgrep, A Polyglot Customizable Bug-Finding Tool**. Strumenta virtual meetup, January 2023.
