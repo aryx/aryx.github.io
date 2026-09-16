@@ -13,6 +13,9 @@
   2021 (ICFP 2021).
   [video](https://www.youtube.com/watch?v=uSs9iCdto00) ·
   [paper](https://icfp21.sigplan.org/details/ocaml-2021-papers/18/Semgrep-a-fast-lightweight-polyglot-static-analysis-tool-to-find-bugs)
+- **PLTalk: Semantic Grep and the Future of Static Analysis**. PLTalk (interview series hosted by
+  Jean Yang), 2020. A look back at my journey through sgrep, Coccinelle, pfff, and Semgrep.
+  [video](https://www.twitch.tv/videos/704349828)
 - **Pfff: PHP Program Analysis at Facebook**. OCaml Workshop 2013.
   [slides](https://ocaml.org/conferences/ocaml/2013/slides/padioleau.pdf)
 - **Codemap, Google Maps for Source Code**. Linux Plumbers Conference, September 2011, Santa Rosa,
