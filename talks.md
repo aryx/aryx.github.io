@@ -23,6 +23,15 @@
 - **pfff_visual demo** (CodeMap on a polyglot codebase). caml-list announcement, September 2010.
   [video part 1](https://www.youtube.com/watch?v=HRZjBGD3osw) ·
   [video part 2](https://www.youtube.com/watch?v=993pmNLY_VU)
+- **Documenting and Automating Collateral Evolutions in Linux Device Drivers**. EuroSys 2008,
+  Glasgow, Scotland.
+  [slides](https://coccinelle.gitlabpages.inria.fr/website/papers/eurosys08-slides.ppt) (see
+  [Academia](academia.md) for the paper)
+- **Semantic Patches, Documenting and Automating Collateral Evolutions in Linux Device Drivers**
+  (tutorial). Ottawa Linux Symposium (OLS), June 2007.
+  [slides (PPT)](https://coccinelle.gitlabpages.inria.fr/website/papers/semantic-patches-talk-ols07.ppt) ·
+  [slides (ODP)](https://coccinelle.gitlabpages.inria.fr/website/papers/semantic-patches-talk-ols07.odp) ·
+  [paper](https://www.kernel.org/doc/ols/2007/ols2007v2-pages-107-118.pdf)
 - **SmPL: A Domain-Specific Language for Specifying Collateral Evolutions in Linux Device
   Drivers**. ERCIM workshop on software evolution, Lille, April 2006.
   [slides](pdfs/smpl-ercim2006-slides.pdf)
