@@ -11,9 +11,9 @@ Full profile: [LinkedIn](https://www.linkedin.com/in/yoann-padioleau-6379268/)
 - **Facebook** (Oct 2009 – Oct 2014) — first static analysis hire; introduced OCaml internally and
   built [pfff](https://github.com/facebookarchive/pfff), which grew into
   [codemap](https://github.com/aryx/codemap), [codegraph](https://github.com/aryx/codegraph), and
-  sgrep. pfff was also a spinoff for [Hack](https://hacklang.org/),
-  [Flow](https://flow.org/), and [Pyre](https://pyre-check.org/), Facebook/Meta's later
-  OCaml-based type checkers.
+  sgrep. Facebook/Meta's later OCaml-based type checkers, [Hack](https://hacklang.org/),
+  [Flow](https://flow.org/), and [Pyre](https://pyre-check.org/), also started from pfff's
+  parser and common libs.
 - **Pattern Insight** (2007) — a few months, during my postdoc, at this small startup doing code
   search and static analysis tools, co-founded by Yuanyuan Zhou (my [ICSE 2009](papers.md)
   co-author), Spiros Xanthos, Zhenmin Li, and others; later acquired by VMware. Several
