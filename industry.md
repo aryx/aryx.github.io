@@ -7,7 +7,9 @@ Full profile: [LinkedIn](https://www.linkedin.com/in/yoann-padioleau-6379268/)
   in 2020. Over that time the company grew from ~20 to 150+ employees and from Series A to D
   funding. See Isaac Evans' (r2c's CEO) post
   [Semgrep: stop grepping code](https://semgrep.dev/blog/2020/semgrep-stop-grepping-code/) for how
-  he credits sgrep and Coccinelle, my earlier tools, as Semgrep's origin.
+  he credits sgrep and Coccinelle, my earlier tools, as Semgrep's origin. I'm still, by far, the
+  biggest contributor to the Semgrep codebase (see the
+  [contributors graph](https://github.com/semgrep/semgrep/graphs/contributors?all=1)).
 - **Facebook** (Oct 2009 – Oct 2014) — first static analysis hire; introduced OCaml internally and
   built [pfff](https://github.com/facebookarchive/pfff), which grew into
   [codemap](https://github.com/aryx/codemap), [codegraph](https://github.com/aryx/codegraph), and
