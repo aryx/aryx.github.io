@@ -18,7 +18,8 @@ More: [Programs](software.md)  · [Papers](papers.md) · [Talks](talks.md)
 
 - **September 2026** — New website! We're live again (last website and last update was in 2010).
 - **May 2008** — My first website!
-- **November 1995** — I am online! Internet! (first year at INSA Rennes)
+- **November 1995** — I am *really* online! Internet! (first year at INSA Rennes)
+- **November 1987** — I am online! Minitel!
 - **November 1977** — I am born!
 
 ## Education projects
