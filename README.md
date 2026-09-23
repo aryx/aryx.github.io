@@ -52,6 +52,10 @@ More: [Programs](software.md)  · [Papers](papers.md) · [Talks](talks.md)
   language built by one person, kept small on purpose.
   [official site](https://www.projectoberon.net/) ·
   [book pdf](https://worrydream.com/refs/Wirth_2005_-_Project_Oberon.pdf)
+- [Plan 9](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs) (Bell Labs, 1992) — the
+  successor to Unix by its original authors, small and clean enough to understand as a whole;
+  the base of both principia-softwarica and xix.
+  [9p.io](https://9p.io/plan9/)
 - [Singularity](<https://en.wikipedia.org/wiki/Singularity_(operating_system)>) (Microsoft
   Research, 2003) — a research OS rethought from first principles.
 - [The Elements of Computing Systems](https://mitpress.mit.edu/9780262539807/the-elements-of-computing-systems/)
