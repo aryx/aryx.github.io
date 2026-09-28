@@ -23,9 +23,12 @@ direction: I choose the design and review, the AI writes the lines.
   rebuilt in miniature in OCaml, playable in your browser (AI).
 - **September 2026** — Started [ix](https://github.com/aryx/ix): [xix](https://aryx.github.io/xix), but tiny (AI).
 - **September 2026** — New website! We're live again (last website and last update was in 2010).
+- **May 2019** — Joined r2c, to turn sgrep into what became
+  [Semgrep](https://github.com/semgrep/semgrep).
 - **January 2016** — Started [xix](https://aryx.github.io/xix): Plan 9 again, rewritten in OCaml.
 - **January 2014** — Started [principia-softwarica](https://principia-softwarica.org/): Plan 9,
   explained program by program.
+- **October 2009** — Joined Facebook, started [pfff](https://github.com/facebookarchive/pfff).
 - **May 2008** — My first website!
 - **November 1995** — I am *really* online! Internet! (first year at INSA Rennes)
 - **November 1987** — I am online! Minitel! (3615 ULLA)
