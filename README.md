@@ -5,8 +5,8 @@
 I like to code and do research on stuff to make it easier to code stuff.
 
 Creator of [Semgrep](https://github.com/semgrep/semgrep). These days mostly focused on
-computer science education (see [principia-softwarica](https://principia-softwarica.org/) and
-[xix](https://aryx.github.io/xix)).
+computer science education (see [principia-softwarica](https://principia-softwarica.org/),
+[xix](https://aryx.github.io/xix), and now [ix](https://github.com/aryx/ix)).
 Before that, at Facebook working on [pfff](https://github.com/facebookarchive/pfff), which led to
 [codemap](https://github.com/aryx/codemap), [codegraph](https://github.com/aryx/codegraph), and
 sgrep (Semgrep's ancestor) — see [Industry](industry.md). And before that, a PhD and postdoc in
@@ -16,6 +16,13 @@ More: [Programs](software.md)  · [Papers](papers.md) · [Talks](talks.md)
 
 ## News
 
+*(AI)* marks a project whose code is almost entirely written by an AI (Claude Code), under my
+direction: I choose the design and review, the AI writes the lines.
+
+- **September 2026** — [tinybox](https://aryx.github.io/ocaml-elm-playground/tinybox.html):
+  145 games and 53 applications, from Pong and Doom to VisiCalc and a web browser, each rebuilt
+  in miniature in OCaml, playable in your browser (AI).
+- **September 2026** — Started [ix](https://github.com/aryx/ix): xix, but tiny (AI).
 - **September 2026** — New website! We're live again (last website and last update was in 2010).
 - **May 2008** — My first website!
 - **November 1995** — I am *really* online! Internet! (first year at INSA Rennes)
@@ -43,6 +50,12 @@ More: [Programs](software.md)  · [Papers](papers.md) · [Talks](talks.md)
       Emacs clone and a web browser, both in OCaml
     - **[tigerc\-\-](https://github.com/aryx/tigerc--)** / **[quickc\-\-](https://github.com/aryx/quickc--)**
       — forks built around the Tiger compiler and the C\-\- portable assembly language
+- **[ix](https://github.com/aryx/ix)** (AI) — xix made tiny: the whole Principia Softwarica
+  system, from the machine to the web browser, as small but real OCaml programs. An ARM
+  emulator and a Raspberry Pi that boots xv6 and Plan 9, a C compiler, assembler and linker
+  whose output matches Plan 9's, a shell, an editor, mk, a database, git, ... Each program
+  comes in two sizes: *mini* (faithful to the Plan 9 original) and *tiny* (a free redesign in
+  a single file). Also a fair comparison, next to xix, of coding by hand vs. with an AI.
 - **[xv6-multiarch](https://github.com/aryx/xv6-multiarch)** — unifying the many
   architecture-specific forks of MIT's teaching OS xv6.
 
@@ -109,8 +122,14 @@ Full list: [software.md](software.md)
 
 ## Fun & games
 
-- **[ocaml-elm-playground](https://github.com/aryx/ocaml-elm-playground)** — an OCaml library for
-  making pictures, animations, and small games easily, modeled on the Elm playground package.
+- **[ocaml-elm-playground](https://github.com/aryx/ocaml-elm-playground)** (AI) — an OCaml library
+  for making pictures, animations, and games easily, in 2D and 3D, started (by hand) as a port of
+  the Elm playground package. It now also holds an "ode to code": 145 games and 53 applications
+  that made computing history (Pac-Man, Doom, Quake, SimCity, VisiCalc, MacPaint, Turbo Pascal,
+  Smalltalk-80, a web browser, ...), each rebuilt in miniature, small enough to read, with its
+  story, and all written from scratch in plain OCaml (pixels, sound, physics, codecs, widgets).
+  Play them in your browser: [tinybox](https://aryx.github.io/ocaml-elm-playground/tinybox.html)
+  ([by size](https://aryx.github.io/ocaml-elm-playground/by-size/)).
 - ICFP Programming Contest — competed five years running, always in OCaml:
   [raytracer](contests/icfp-2000-raytracer.tgz) (2000),
   [XML](contests/icfp-2001-xml.tgz) (2001),
