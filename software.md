@@ -12,7 +12,7 @@ I'm the main author of most of these (often also the single author), except Cocc
 | [xix](https://github.com/aryx/xix) | A from-scratch rewrite, in OCaml, of Plan 9 — the windowing system and userland so far, eventually also the kernel. |
 | [syncweb](https://github.com/aryx/syncweb) | A literate programming tool that lets you edit either the code or the literate doc and stay in sync both ways, fixing the biggest complaint about original literate programming tools (which required editing only the doc, code being generated/extracted one-way). |
 | [ocaml-caps](https://github.com/aryx/ocaml-caps) | Capability types and rules for OCaml. |
-| [ocaml-elm-playground](https://github.com/aryx/ocaml-elm-playground) | An OCaml library for pictures/animations/small games, modeled on Evan Czaplicki's Elm playground package. |
+| [ocaml-elm-playground 0.1.7](https://github.com/aryx/ocaml-elm-playground/tree/0.1.7) | The playground before any AI: an OCaml library for pictures/animations/small games, modeled on Evan Czaplicki's Elm playground package. |
 | [ocaml-commons](https://github.com/aryx/ocaml-commons) | OCaml standard library extensions. |
 | [ocamltarzan](https://github.com/aryx/ocamltarzan) | (deprecated) Compile-time reflection / metaprogramming for OCaml. |
 | [Semgrep](https://github.com/semgrep/semgrep) | Static analysis tool: find bugs using rules that look like the code they match. |
@@ -28,6 +28,18 @@ I'm the main author of most of these (often also the single author), except Cocc
 | [lfs](https://github.com/aryx/lfs) | Logic file system. |
 
 
+## Mostly written by AI
+
+Code almost entirely written by an AI (Claude Code), under my direction: I choose the design and
+review, the AI writes the lines.
+
+| Project | Description |
+|---|---|
+| [ix](https://github.com/aryx/ix) | [xix](https://aryx.github.io/xix) made tiny: the whole Principia Softwarica system, from an ARM emulator to the C toolchain and the shell, in small but real OCaml programs. |
+| [the playground](https://github.com/aryx/ocaml-elm-playground) | An OCaml library for pictures/animations/games, started (by hand, up to 0.1.7, see above) as a port of Evan Czaplicki's Elm playground package, plus about 150 games and 50 applications that made computing history, each rebuilt in miniature to be read ([tinybox](https://aryx.github.io/ocaml-elm-playground/tinybox.html)). |
+| [tigerc\-\-](https://github.com/aryx/tigerc--) | Fork built around the Tiger compiler (from Andrew Appel's textbook). |
+| [quickc\-\-](https://github.com/aryx/quickc--) | Fork of Quick C\-\- (Norman Ramsey), a compiler for the C\-\- portable assembly language. |
+
 ## Forks / took over someone else's work
 
 Originally written by others, but extended and often reorganized by me (and lately also Claude Code).
@@ -39,8 +51,6 @@ Originally written by others, but extended and often reorganized by me (and late
 | [xv6-multiarch](https://github.com/aryx/xv6-multiarch) | Unifying the many architecture-specific forks of MIT's teaching OS xv6. |
 | [chidb](https://github.com/aryx/chidb) | A teaching database engine, originally by Borja Sotomayor and Adam Shaw (UChicago). |
 | [ocaml-light](https://github.com/aryx/ocaml-light) | OCaml 1.07, originally by Xavier Leroy et al. (INRIA), stripped of objects and functors, for teaching. |
-| [tigerc\-\-](https://github.com/aryx/tigerc--) | Fork built around the Tiger compiler (from Andrew Appel's textbook). |
-| [quickc\-\-](https://github.com/aryx/quickc--) | Fork of Quick C\-\- (Norman Ramsey), a compiler for the C\-\- portable assembly language. |
 | [efuns](https://github.com/aryx/efuns) | An Emacs clone, originally by Fabrice Le Fessant (INRIA); I took over maintenance in 2015. |
 | [mmm](https://github.com/aryx/mmm) | My fork of the OCaml MMM web browser, originally by Francois Rouaix (INRIA). |
 
