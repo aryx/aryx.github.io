@@ -5,9 +5,7 @@
 I like to code and do research on stuff to make it easier to code stuff.
 
 Creator of [Semgrep](https://github.com/semgrep/semgrep). These days mostly focused on
-computer science education (see [principia-softwarica](https://principia-softwarica.org/),
-[xix](https://aryx.github.io/xix), and now [ix](https://github.com/aryx/ix) and
-[the playground](https://github.com/aryx/ocaml-elm-playground)).
+computer science education (see [Education projects](#education-projects) below).
 Before that, at Facebook working on [pfff](https://github.com/facebookarchive/pfff), which led to
 [codemap](https://github.com/aryx/codemap), [codegraph](https://github.com/aryx/codegraph), and
 sgrep (Semgrep's ancestor) — see [Industry](industry.md). And before that, a PhD and postdoc in
