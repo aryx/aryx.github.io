@@ -50,23 +50,12 @@ direction: I choose the design and review, the AI writes the lines.
     - **[tigerc\-\-](https://github.com/aryx/tigerc--)** / **[quickc\-\-](https://github.com/aryx/quickc--)**
       (AI) — forks built around the Tiger compiler and the C\-\- portable assembly language
 - **[ix](https://github.com/aryx/ix)** (AI) — [xix](https://aryx.github.io/xix) made tiny:
-  the whole Principia Softwarica system, from the machine to the web browser, as small but real
-  OCaml programs. An ARM emulator and a Raspberry Pi that boots xv6 and Plan 9, a C compiler,
-  assembler and linker whose output matches Plan 9's, a shell, an editor, mk, a database, git,
-  ... Each program comes in two sizes: *mini* (faithful to the Plan 9 original) and *tiny* (a
-  free redesign in a single file). Also a fair comparison, next to xix, of coding by hand vs.
-  with an AI.
-- **[the playground](https://github.com/aryx/ocaml-elm-playground)** (AI) — started (by hand)
-  as an OCaml port of the Elm playground package, a library for learning to *write* programs by
-  making pictures, animations, and games; it is now also a place to learn by *reading* them.
-  An "ode to code": about 150 games and 50 applications that made computing history (Pac-Man,
-  Doom, Quake, SimCity, VisiCalc, MacPaint, Turbo Pascal, Smalltalk-80, a web browser, ...),
-  each rebuilt in miniature, small enough to read in one sitting, with its story.
-  Everything is written from scratch in plain OCaml (pixels, sound, physics, codecs, widgets), one
-  idea per module, each explained in its `.mli`, with tutorials walking through each subject.
-  Play them in your browser:
-  [tinybox](https://aryx.github.io/ocaml-elm-playground/tinybox.html)
-  ([by size](https://aryx.github.io/ocaml-elm-playground/by-size/)).
+  the whole Principia Softwarica system, from an ARM emulator to the C toolchain and the shell,
+  in small but real OCaml programs.
+- **[the playground](https://github.com/aryx/ocaml-elm-playground)** (AI) — an OCaml library for
+  making pictures, animations, and games, plus about 150 games and 50 applications that made
+  computing history, each rebuilt in miniature to be read.
+  ([tinybox](https://aryx.github.io/ocaml-elm-playground/tinybox.html))
 - **[xv6-multiarch](https://github.com/aryx/xv6-multiarch)** — unifying the many
   architecture-specific forks of MIT's teaching OS xv6.
 
