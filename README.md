@@ -19,9 +19,9 @@ More: [Programs](software.md)  · [Papers](papers.md) · [Talks](talks.md)
 direction: I choose the design and review, the AI writes the lines.
 
 - **September 2026** — [tinybox](https://aryx.github.io/ocaml-elm-playground/tinybox.html):
-  145 games and 53 applications, from Pong and Doom to VisiCalc and a web browser, each rebuilt
-  in miniature in OCaml, playable in your browser (AI).
-- **September 2026** — Started [ix](https://github.com/aryx/ix): xix, but tiny (AI).
+  about 150 games and 50 applications, from Pong and Doom to VisiCalc and a web browser, each
+  rebuilt in miniature in OCaml, playable in your browser (AI).
+- **September 2026** — Started [ix](https://github.com/aryx/ix): [xix](https://aryx.github.io/xix), but tiny (AI).
 - **September 2026** — New website! We're live again (last website and last update was in 2010).
 - **May 2008** — My first website!
 - **November 1995** — I am *really* online! Internet! (first year at INSA Rennes)
@@ -49,17 +49,18 @@ direction: I choose the design and review, the AI writes the lines.
       Emacs clone and a web browser, both in OCaml
     - **[tigerc\-\-](https://github.com/aryx/tigerc--)** / **[quickc\-\-](https://github.com/aryx/quickc--)**
       — forks built around the Tiger compiler and the C\-\- portable assembly language
-- **[ix](https://github.com/aryx/ix)** (AI) — xix made tiny: the whole Principia Softwarica
-  system, from the machine to the web browser, as small but real OCaml programs. An ARM
-  emulator and a Raspberry Pi that boots xv6 and Plan 9, a C compiler, assembler and linker
-  whose output matches Plan 9's, a shell, an editor, mk, a database, git, ... Each program
-  comes in two sizes: *mini* (faithful to the Plan 9 original) and *tiny* (a free redesign in
-  a single file). Also a fair comparison, next to xix, of coding by hand vs. with an AI.
+- **[ix](https://github.com/aryx/ix)** (AI) — [xix](https://aryx.github.io/xix) made tiny:
+  the whole Principia Softwarica system, from the machine to the web browser, as small but real
+  OCaml programs. An ARM emulator and a Raspberry Pi that boots xv6 and Plan 9, a C compiler,
+  assembler and linker whose output matches Plan 9's, a shell, an editor, mk, a database, git,
+  ... Each program comes in two sizes: *mini* (faithful to the Plan 9 original) and *tiny* (a
+  free redesign in a single file). Also a fair comparison, next to xix, of coding by hand vs.
+  with an AI.
 - **[the playground](https://github.com/aryx/ocaml-elm-playground)** (AI) — started (by hand)
   as an OCaml port of the Elm playground package, a library for learning to *write* programs by
   making pictures, animations, and games; it is now also a place to learn by *reading* them.
-  An "ode to code": 145 games and 53 applications that made computing history (Pac-Man, Doom,
-  Quake, SimCity, VisiCalc, MacPaint, Turbo Pascal, Smalltalk-80, a web browser, ...),
+  An "ode to code": about 150 games and 50 applications that made computing history (Pac-Man,
+  Doom, Quake, SimCity, VisiCalc, MacPaint, Turbo Pascal, Smalltalk-80, a web browser, ...),
   each rebuilt in miniature, small enough to read in one sitting, with its story.
   Everything is written from scratch in plain OCaml (pixels, sound, physics, codecs, widgets), one
   idea per module, each explained in its `.mli`, with tutorials walking through each subject.
