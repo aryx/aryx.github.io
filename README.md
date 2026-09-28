@@ -48,7 +48,7 @@ direction: I choose the design and review, the AI writes the lines.
     - **[efuns](https://github.com/aryx/efuns)** / **[mmm](https://github.com/aryx/mmm)** — an
       Emacs clone and a web browser, both in OCaml
     - **[tigerc\-\-](https://github.com/aryx/tigerc--)** / **[quickc\-\-](https://github.com/aryx/quickc--)**
-      — forks built around the Tiger compiler and the C\-\- portable assembly language
+      (AI) — forks built around the Tiger compiler and the C\-\- portable assembly language
 - **[ix](https://github.com/aryx/ix)** (AI) — [xix](https://aryx.github.io/xix) made tiny:
   the whole Principia Softwarica system, from the machine to the web browser, as small but real
   OCaml programs. An ARM emulator and a Raspberry Pi that boots xv6 and Plan 9, a C compiler,
