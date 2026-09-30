@@ -38,6 +38,10 @@ theme) — see below for why.
   No header banner, no skip-link, no footer credit — those were all part of Cayman's own
   `default.html` and were dropped along with the theme dependency (see `_config.yml` above) and
   a request to remove the extra chrome the theme added.
+- `favicon.svg` — "PAD" in white Georgia bold on a purple rounded square, in the same style as
+  the favicons of the author's other sites (xix orange, principia green, IX blue; the playground,
+  hosting many projects, breaks the pattern with its colored shapes on navy), so they read as
+  one family; linked from `_layouts/default.html`.
 - `README.md` — the homepage content, written in Markdown (GitHub renders code fences, e.g. the
   `ocaml` block, with syntax highlighting on GitHub itself and via Jekyll's Markdown renderer on
   the published site).
