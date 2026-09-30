@@ -35,7 +35,7 @@ review, the AI writes the lines.
 
 | Project | Description |
 |---|---|
-| [ix](https://github.com/aryx/ix) | [xix](https://aryx.github.io/xix) made tiny: the whole Principia Softwarica system, from an ARM emulator to the C toolchain and the shell, in small but real OCaml programs. |
+| [IX](https://github.com/aryx/IX) | [xix](https://aryx.github.io/xix) made tiny: the whole Principia Softwarica system, from an ARM emulator to the C toolchain and the shell, in small but real OCaml programs. |
 | [the playground](https://github.com/aryx/ocaml-elm-playground) | An OCaml library for pictures/animations/games, started (by hand, up to 0.1.7, see above) as a port of Evan Czaplicki's Elm playground package, plus about 150 games and 50 applications that made computing history, each rebuilt in miniature to be read ([tinybox](https://aryx.github.io/ocaml-elm-playground/tinybox.html)). |
 
 ## Forks / took over someone else's work

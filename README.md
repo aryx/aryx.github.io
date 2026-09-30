@@ -21,7 +21,7 @@ direction: I choose the design and review, the AI writes the lines.
 - **September 2026** — [tinybox](https://aryx.github.io/ocaml-elm-playground/tinybox.html):
   about 150 games and 50 applications, from Pong and Doom to VisiCalc and a web browser, each
   rebuilt in miniature in OCaml, playable in your browser (AI).
-- **September 2026** — Started [ix](https://github.com/aryx/ix): [xix](https://aryx.github.io/xix), but tiny (AI).
+- **September 2026** — Started [IX](https://github.com/aryx/IX): [xix](https://aryx.github.io/xix), but tiny (AI).
 - **September 2026** — New website! We're live again (last website and last update was in 2010).
 - **August 2019** — Nathalie is born!
 - **May 2019** — Joined r2c, to turn sgrep into what became
@@ -61,7 +61,7 @@ direction: I choose the design and review, the AI writes the lines.
       Emacs clone and a web browser, both in OCaml
     - **[tigerc\-\-](https://github.com/aryx/tigerc--)** / **[quickc\-\-](https://github.com/aryx/quickc--)**
       — forks built around the Tiger compiler and the C\-\- portable assembly language
-- **[ix](https://github.com/aryx/ix)** (AI) — [xix](https://aryx.github.io/xix) made tiny:
+- **[IX](https://github.com/aryx/IX)** (AI) — [xix](https://aryx.github.io/xix) made tiny:
   the whole Principia Softwarica system, from an ARM emulator to the C toolchain and the shell,
   in small but real OCaml programs.
 - **[the playground](https://github.com/aryx/ocaml-elm-playground)** (AI) — an OCaml library for
