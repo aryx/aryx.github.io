@@ -66,8 +66,13 @@ direction: I choose the design and review, the AI writes the lines.
   in small but real OCaml programs.
 - **[the playground](https://github.com/aryx/ocaml-elm-playground)** (AI) — an OCaml library for
   making pictures, animations, and games, plus about 150 games and 50 applications that made
-  computing history, each rebuilt in miniature to be read.
-  ([tinybox](https://aryx.github.io/ocaml-elm-playground/tinybox.html))
+  computing history, each rebuilt in miniature to be read. Two spinoffs:
+  - **[tinybox](https://aryx.github.io/ocaml-elm-playground/tinybox.html)** — all those games
+    and applications in one menu (and one executable, after BusyBox), playable in your browser.
+  - **[codemap v2](https://aryx.github.io/ocaml-elm-playground/codemap.html)** — a new
+    [codemap](https://github.com/aryx/codemap): a codebase drawn as a map, to be read from the
+    whole down to a single line; it runs on any directory
+    ([manual](https://github.com/aryx/ocaml-elm-playground/blob/master/docs/manual/codemap.md)).
 - **[xv6-multiarch](https://github.com/aryx/xv6-multiarch)** — unifying the many
   architecture-specific forks of MIT's teaching OS xv6.
 
@@ -118,7 +123,9 @@ Full list: [software.md](software.md)
       Semgrep company, focused on OCaml/C improvements and using LSP/LSIF/SCIP.
 - **[codemap](https://github.com/aryx/codemap)** / **[codegraph](https://github.com/aryx/codegraph)**
   — source code visualizers (treemap, dependency graph); visualizing code instead of just reading
-  it.
+  it. Now mostly superseded by
+  [codemap v2](https://aryx.github.io/ocaml-elm-playground/codemap.html) (see the playground
+  above), which draws the dependencies on the map too.
 - **[codequery](https://github.com/aryx/codequery)** / **[codecheck](https://github.com/aryx/codecheck)**
   — querying and checking a codebase.
 - **[syncweb](https://github.com/aryx/syncweb)** — a literate programming tool; lets you edit code

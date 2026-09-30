@@ -19,8 +19,8 @@ I'm the main author of most of these (often also the single author), except Cocc
 | [osemgrep](https://github.com/aryx/osemgrep) | My personal fork of Semgrep, since leaving the Semgrep company; focused on OCaml/C improvements and LSP support. |
 | [semgrep-pfff-libs](https://github.com/aryx/semgrep-pfff-libs) / [semgrep-pfff-langs](https://github.com/aryx/semgrep-pfff-langs) | Parsing libraries behind Semgrep. |
 | [pfff](https://github.com/facebookarchive/pfff) | A big monorepo of language parsers and tools built on them (semantic search/grep, semantic patch, refactoring, visualization, ...), from my Facebook years. Ancestor of semgrep-pfff-libs/langs, Semgrep, and codemap/codegraph below. Also used internally at Facebook by closed-source tools such as checkModule, a dead code analyzer, and dynamic/static test-coverage indexing and test-runner optimization (à la Echelon, a Microsoft Research paper from around 2010) — mostly bug-finding tools for what would now be called appsec (the term didn't exist yet in 2010). |
-| [codemap](https://github.com/aryx/codemap) | Source code visualizer (treemap). |
-| [codegraph](https://github.com/aryx/codegraph) | Source code dependencies visualizer. |
+| [codemap](https://github.com/aryx/codemap) | Source code visualizer (treemap). Now mostly superseded by codemap v2, below. |
+| [codegraph](https://github.com/aryx/codegraph) | Source code dependencies visualizer. Now mostly superseded by codemap v2, below. |
 | [codequery](https://github.com/aryx/codequery) | Querying a codebase using Prolog. |
 | [codecheck](https://github.com/aryx/codecheck) | A multi-language whole-program analysis code checker. |
 | [yacfe](https://github.com/aryx/yacfe) | (deprecated) Yet Another C Front-End: style-preserving C/C++ transformations. |
@@ -36,7 +36,9 @@ review, the AI writes the lines.
 | Project | Description |
 |---|---|
 | [IX](https://github.com/aryx/IX) | [xix](https://aryx.github.io/xix) made tiny: the whole Principia Softwarica system, from an ARM emulator to the C toolchain and the shell, in small but real OCaml programs. |
-| [the playground](https://github.com/aryx/ocaml-elm-playground) | An OCaml library for pictures/animations/games, started (by hand, up to 0.1.7, see above) as a port of Evan Czaplicki's Elm playground package, plus about 150 games and 50 applications that made computing history, each rebuilt in miniature to be read ([tinybox](https://aryx.github.io/ocaml-elm-playground/tinybox.html)). |
+| [the playground](https://github.com/aryx/ocaml-elm-playground) | An OCaml library for pictures/animations/games, started (by hand, up to 0.1.7, see above) as a port of Evan Czaplicki's Elm playground package, plus about 150 games and 50 applications that made computing history, each rebuilt in miniature to be read. Spinoffs: tinybox and codemap v2, below. |
+| [tinybox](https://aryx.github.io/ocaml-elm-playground/tinybox.html) | The playground's games and applications in one menu (and one executable, after BusyBox), playable in your browser. |
+| [codemap v2](https://aryx.github.io/ocaml-elm-playground/codemap.html) | A new [codemap](https://github.com/aryx/codemap), part of the playground: a codebase drawn as a map, to be read from the whole down to a single line, with its dependencies drawn on it too; runs on any directory ([manual](https://github.com/aryx/ocaml-elm-playground/blob/master/docs/manual/codemap.md)). Mostly supersedes codemap and codegraph. |
 
 ## Forks / took over someone else's work
 
