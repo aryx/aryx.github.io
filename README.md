@@ -74,8 +74,9 @@ direction: I choose the design and review, the AI writes the lines.
       whole down to a single line; it runs on any directory
       ([manual](https://github.com/aryx/ocaml-elm-playground/blob/master/docs/manual/codemap.md)).
     - **[mini-chrome](https://github.com/aryx/mini-chrome)** — a small web browser written from
-      scratch in OCaml, with its own HTML, CSS, and JavaScript engines and developer tools; it
-      started as the playground's
+      scratch in OCaml, all the way down: its own HTML, CSS, and JavaScript engines, its own
+      network stack (HTTP, TLS 1.3), developer tools, and it can even draw with the playground's
+      own software rasterizer; it started as the playground's
       [TinyChrome](https://aryx.github.io/ocaml-elm-playground/apps/internet/TinyChrome.html) and
       grows from there, towards the web as it is.
 - **[xv6-multiarch](https://github.com/aryx/xv6-multiarch)** — unifying the many
