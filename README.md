@@ -56,8 +56,8 @@ direction: I choose the design and review, the AI writes the lines.
   programming with a saner language.
   ([aryx.github.io/xix](https://aryx.github.io/xix))
   - spinoffs:
-    - **[ocaml-light](https://github.com/aryx/ocaml-light)** — OCaml 1.07 stripped of objects and
-      functors for teaching
+    - **[ocaml-light](https://github.com/aryx/ocaml-light)** — OCaml 1.07 (by Xavier Leroy
+      et al.) stripped of objects and functors for teaching
     - **[efuns](https://github.com/aryx/efuns)** / **[mmm](https://github.com/aryx/mmm)** — an
       Emacs clone (by Fabrice Le Fessant) and a web browser (by Francois Rouaix), both in OCaml
     - **[tigerc\-\-](https://github.com/aryx/tigerc--)** / **[quickc\-\-](https://github.com/aryx/quickc--)**
