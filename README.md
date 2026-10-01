@@ -43,7 +43,7 @@ direction: I choose the design and review, the AI writes the lines.
 ## Education projects
 
 - **[principia-softwarica](https://github.com/aryx/principia-softwarica)** — a fork of Plan 9
-  (by Rob Pike, Ken Thompson, et al.), rewritten as a teaching operating system, in C.
+  (by Rob Pike, Ken Thompson, et al.), repurposed as a teaching operating system, in C.
   ([principia-softwarica.org](https://principia-softwarica.org/))
   - spinoffs:
     - **[goken9cc](https://github.com/aryx/goken9cc)** — a portable multi-architecture toolchain
