@@ -42,14 +42,15 @@ direction: I choose the design and review, the AI writes the lines.
 
 ## Education projects
 
-- **[principia-softwarica](https://github.com/aryx/principia-softwarica)** — a fork of Plan 9,
-  rewritten as a teaching operating system, in C.
+- **[principia-softwarica](https://github.com/aryx/principia-softwarica)** — a fork of Plan 9
+  (by Rob Pike, Ken Thompson, et al.), rewritten as a teaching operating system, in C.
   ([principia-softwarica.org](https://principia-softwarica.org/))
   - spinoffs:
     - **[goken9cc](https://github.com/aryx/goken9cc)** — a portable multi-architecture toolchain
       (compilers, assemblers, linkers) rooted in the Plan 9/Inferno toolchains, extended to also
       target Linux/macOS/Windows
     - **[chidb](https://github.com/aryx/chidb)** — a teaching database engine
+      (by Borja Sotomayor and Adam Shaw)
 - **[xix](https://github.com/aryx/xix)** — a from-scratch rewrite, in OCaml, of Plan 9 — the
   windowing system and userland so far, eventually also the kernel — for teaching systems
   programming with a saner language.
@@ -58,9 +59,10 @@ direction: I choose the design and review, the AI writes the lines.
     - **[ocaml-light](https://github.com/aryx/ocaml-light)** — OCaml 1.07 stripped of objects and
       functors for teaching
     - **[efuns](https://github.com/aryx/efuns)** / **[mmm](https://github.com/aryx/mmm)** — an
-      Emacs clone and a web browser, both in OCaml
+      Emacs clone (by Fabrice Le Fessant) and a web browser (by Francois Rouaix), both in OCaml
     - **[tigerc\-\-](https://github.com/aryx/tigerc--)** / **[quickc\-\-](https://github.com/aryx/quickc--)**
-      — forks built around the Tiger compiler and the C\-\- portable assembly language
+      — forks of a Tiger compiler (by Paul Govereau) and of the Quick C\-\- compiler for the C\-\-
+      portable assembly language (by Norman Ramsey et al.)
 - **[IX](https://github.com/aryx/IX)** (AI) — [xix](https://aryx.github.io/xix) made tiny:
   the whole Principia Softwarica system, from an ARM emulator to the C toolchain and the shell,
   in small but real OCaml programs.
