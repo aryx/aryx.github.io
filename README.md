@@ -68,15 +68,19 @@ direction: I choose the design and review, the AI writes the lines.
   in small but real OCaml programs.
 - **[the playground](https://github.com/aryx/ocaml-elm-playground)** (AI) — an OCaml library for
   making pictures, animations, and games, plus about 150 games and 50 applications that made
-  computing history, each rebuilt in miniature to be read. Two spinoffs:
+  computing history, each rebuilt in miniature to be read. Highlights:
   - **[tinybox](https://aryx.github.io/ocaml-elm-playground/tinybox.html)** — all those games
     and applications in one menu (and one executable, after BusyBox), playable in your browser.
   - **[codemap v2](https://aryx.github.io/ocaml-elm-playground/codemap.html)** — a new
     [codemap](https://github.com/aryx/codemap): a codebase drawn as a map, to be read from the
     whole down to a single line; it runs on any directory
     ([manual](https://github.com/aryx/ocaml-elm-playground/blob/master/docs/manual/codemap.md)).
+  - **[TinyChrome](https://aryx.github.io/ocaml-elm-playground/apps/internet/TinyChrome.html)**
+    — the biggest of those applications: a web browser in 15,000 lines of OCaml, with its own
+    HTML, CSS, and JavaScript engines and developer tools.
 - **[xv6-multiarch](https://github.com/aryx/xv6-multiarch)** — unifying the many
-  architecture-specific forks of MIT's teaching OS xv6.
+  architecture-specific forks of MIT's teaching OS xv6 (by Russ Cox, Frans Kaashoek, and Robert
+  Morris).
 
 ## Related work & inspirations
 
