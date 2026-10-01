@@ -36,9 +36,10 @@ review, the AI writes the lines.
 | Project | Description |
 |---|---|
 | [IX](https://github.com/aryx/IX) | [xix](https://aryx.github.io/xix) made tiny: the whole Principia Softwarica system, from an ARM emulator to the C toolchain and the shell, in small but real OCaml programs. |
-| [the playground](https://github.com/aryx/ocaml-elm-playground) | An OCaml library for pictures/animations/games, started (by hand, up to 0.1.7, see above) as a port of Evan Czaplicki's Elm playground package, plus about 150 games and 50 applications that made computing history, each rebuilt in miniature to be read. Spinoffs: tinybox and codemap v2, below. |
+| [the playground](https://github.com/aryx/ocaml-elm-playground) | An OCaml library for pictures/animations/games, started (by hand, up to 0.1.7, see above) as a port of Evan Czaplicki's Elm playground package, plus about 150 games and 50 applications that made computing history, each rebuilt in miniature to be read. Spinoffs: tinybox, codemap v2, and mini-chrome, below. |
 | [tinybox](https://aryx.github.io/ocaml-elm-playground/tinybox.html) | The playground's games and applications in one menu (and one executable, after BusyBox), playable in your browser. |
 | [codemap v2](https://aryx.github.io/ocaml-elm-playground/codemap.html) | A new [codemap](https://github.com/aryx/codemap), part of the playground: a codebase drawn as a map, to be read from the whole down to a single line, with its dependencies drawn on it too; runs on any directory ([manual](https://github.com/aryx/ocaml-elm-playground/blob/master/docs/manual/codemap.md)). Mostly supersedes codemap and codegraph. |
+| [mini-chrome](https://github.com/aryx/mini-chrome) | A small web browser written from scratch in OCaml, with its own HTML, CSS, and JavaScript engines and developer tools; started as the playground's [TinyChrome](https://aryx.github.io/ocaml-elm-playground/apps/internet/TinyChrome.html) and grows from there, towards the web as it is. |
 
 ## Forks / took over someone else's work
 
