@@ -51,7 +51,7 @@ Originally written by others, but extended and often reorganized by me (and late
 | [xv6-multiarch](https://github.com/aryx/xv6-multiarch) | Unifying the many architecture-specific forks of MIT's teaching OS xv6. |
 | [chidb](https://github.com/aryx/chidb) | A teaching database engine, originally by Borja Sotomayor and Adam Shaw (UChicago). |
 | [ocaml-light](https://github.com/aryx/ocaml-light) | OCaml 1.07, originally by Xavier Leroy et al. (INRIA), stripped of objects and functors, for teaching. |
-| [tigerc\-\-](https://github.com/aryx/tigerc--) | Fork built around the Tiger compiler (from Andrew Appel's textbook). |
+| [tigerc\-\-](https://github.com/aryx/tigerc--) | Fork of the Tiger front end for C\-\- (Paul Govereau), a compiler for the Tiger language from Andrew Appel's textbook. |
 | [quickc\-\-](https://github.com/aryx/quickc--) | Fork of Quick C\-\- (Norman Ramsey), a compiler for the C\-\- portable assembly language. |
 | [efuns](https://github.com/aryx/efuns) | An Emacs clone, originally by Fabrice Le Fessant (INRIA); I took over maintenance in 2015. |
 | [mmm](https://github.com/aryx/mmm) | My fork of the OCaml MMM web browser, originally by Francois Rouaix (INRIA). |
