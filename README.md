@@ -44,8 +44,7 @@ direction: I choose the design and review, the AI writes the lines.
 
 - **[principia-softwarica](https://github.com/aryx/principia-softwarica)** — a fork of Plan 9
   (by Rob Pike, Ken Thompson, et al.), repurposed as a teaching operating system, in C.
-  ([principia-softwarica.org](https://principia-softwarica.org/))
-  - spinoffs:
+  ([principia-softwarica.org](https://principia-softwarica.org/)). Spinoffs:
     - **[goken9cc](https://github.com/aryx/goken9cc)** — a portable multi-architecture toolchain
       (compilers, assemblers, linkers) rooted in the Plan 9/Inferno toolchains, extended to also
       target Linux/macOS/Windows
@@ -54,8 +53,7 @@ direction: I choose the design and review, the AI writes the lines.
 - **[xix](https://github.com/aryx/xix)** — a from-scratch rewrite, in OCaml, of Plan 9 — the
   windowing system and userland so far, eventually also the kernel — for teaching systems
   programming with a saner language.
-  ([aryx.github.io/xix](https://aryx.github.io/xix))
-  - spinoffs:
+  ([aryx.github.io/xix](https://aryx.github.io/xix)). Spinoffs:
     - **[ocaml-light](https://github.com/aryx/ocaml-light)** — OCaml 1.07 (by Xavier Leroy
       et al.) stripped of objects and functors for teaching
     - **[efuns](https://github.com/aryx/efuns)** / **[mmm](https://github.com/aryx/mmm)** — an
@@ -68,18 +66,18 @@ direction: I choose the design and review, the AI writes the lines.
   in small but real OCaml programs.
 - **[the playground](https://github.com/aryx/ocaml-elm-playground)** (AI) — an OCaml library for
   making pictures, animations, and games, plus about 150 games and 50 applications that made
-  computing history, each rebuilt in miniature to be read. Three spinoffs:
-  - **[tinybox](https://aryx.github.io/ocaml-elm-playground/tinybox.html)** — all those games
-    and applications in one menu (and one executable, after BusyBox), playable in your browser.
-  - **[codemap v2](https://aryx.github.io/ocaml-elm-playground/codemap.html)** — a new
-    [codemap](https://github.com/aryx/codemap): a codebase drawn as a map, to be read from the
-    whole down to a single line; it runs on any directory
-    ([manual](https://github.com/aryx/ocaml-elm-playground/blob/master/docs/manual/codemap.md)).
-  - **[mini-chrome](https://github.com/aryx/mini-chrome)** — a small web browser written from
-    scratch in OCaml, with its own HTML, CSS, and JavaScript engines and developer tools; it
-    started as the playground's
-    [TinyChrome](https://aryx.github.io/ocaml-elm-playground/apps/internet/TinyChrome.html) and
-    grows from there, towards the web as it is.
+  computing history, each rebuilt in miniature to be read. Spinoffs:
+    - **[tinybox](https://aryx.github.io/ocaml-elm-playground/tinybox.html)** — all those games
+      and applications in one menu (and one executable, after BusyBox), playable in your browser.
+    - **[codemap v2](https://aryx.github.io/ocaml-elm-playground/codemap.html)** — a new
+      [codemap](https://github.com/aryx/codemap): a codebase drawn as a map, to be read from the
+      whole down to a single line; it runs on any directory
+      ([manual](https://github.com/aryx/ocaml-elm-playground/blob/master/docs/manual/codemap.md)).
+    - **[mini-chrome](https://github.com/aryx/mini-chrome)** — a small web browser written from
+      scratch in OCaml, with its own HTML, CSS, and JavaScript engines and developer tools; it
+      started as the playground's
+      [TinyChrome](https://aryx.github.io/ocaml-elm-playground/apps/internet/TinyChrome.html) and
+      grows from there, towards the web as it is.
 - **[xv6-multiarch](https://github.com/aryx/xv6-multiarch)** — unifying the many
   architecture-specific forks of MIT's teaching OS xv6 (by Russ Cox, Frans Kaashoek, and Robert
   Morris).
