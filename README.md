@@ -1,4 +1,4 @@
-# Yoann "Pad" Padioleau
+# Yoann Padioleau's Homepage
 
 *(aka pad, padator, aryx)*
 
@@ -8,8 +8,8 @@ Creator of [Semgrep](https://github.com/semgrep/semgrep). These days mostly focu
 computer science education (see [Education projects](#education-projects) below).
 Before that, at Facebook working on [pfff](https://github.com/facebookarchive/pfff), which led to
 [codemap](https://github.com/aryx/codemap), [codegraph](https://github.com/aryx/codegraph), and
-sgrep (Semgrep's ancestor) — see [Industry](industry.md). And before that, a PhD and postdoc in
-program analysis — see [Academia](academia.md).
+sgrep (Semgrep's ancestor) — see [Industry](industry.md).
+And before that, a PhD and postdoc in program analysis — see [Academia](academia.md).
 
 More: [Programs](software.md)  · [Papers](papers.md) · [Talks](talks.md)
 
@@ -18,16 +18,17 @@ More: [Programs](software.md)  · [Papers](papers.md) · [Talks](talks.md)
 *(AI)* marks a project whose code is almost entirely written by an AI (Claude Code), under my
 direction: I choose the design and review, the AI writes the lines.
 
-- **September 2026** — [tinybox](https://aryx.github.io/ocaml-elm-playground/tinybox.html):
+- **October 2026** — [tinybox](https://aryx.github.io/ocaml-elm-playground/tinybox.html):
   about 150 games and 50 applications, from Pong and Doom to VisiCalc and a web browser, each
   rebuilt in miniature in OCaml, playable in your browser (AI).
-- **September 2026** — Started [IX](https://github.com/aryx/IX): [xix](https://aryx.github.io/xix), but tiny (AI).
-- **September 2026** — New website! We're live again (last website and last update was in 2010).
+- **September 2026** — Started [IX](https://github.com/aryx/IX): [xix](https://aryx.github.io/xix), but in mini and tiny versions (AI).
+- **August 2026** — New website! We're live again (last website and last update was in 2010).
 - **August 2019** — Nathalie is born!
 - **May 2019** — Joined r2c, to turn sgrep into what became
   [Semgrep](https://github.com/semgrep/semgrep).
 - **January 2017** — Giovanni is born!
 - **January 2016** — Started [xix](https://aryx.github.io/xix): Plan 9 again, rewritten in OCaml.
+- **December 2015** — Met Knuth!
 - **July 2015** — Married Luisa!
 - **January 2014** — Started [principia-softwarica](https://principia-softwarica.org/): Plan 9,
   explained program by program.
