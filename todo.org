@@ -1,0 +1,26 @@
+** website
+# market myself more
+
+*** less: full pass on old homepage, find some useful nuggets?
+can also directly use and explore
+https://web.archive.org/web/20150520035946/http://padator.org/homepage.php
+instead of Dropbox/homepage
+
+*** less: more software
+revive tronscroll :) otimetracker, magicator, etc.
+also generic_print.ml, quick_check.ml hacks
+
+software: ccoment, uiuc link still valid?
+at http://opera.cs.uiuc.edu/ccomment
+
+at http://www.emn.fr/x-info/coccinelle
+
+at http://lfs.irisa.fr/~pad/soft/LFS
+
+*** less: more hacks
+=> add mapreduce.pdf? quick-test, generic-printer, ocaml old goodies, with years?
+  superseded in most cases with more recent stuff, but I was one of the first each time :)
+
+magicator? (unreleased) in programs.md ?
+otimetracker?
+history-linux?
